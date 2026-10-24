@@ -1,9 +1,8 @@
-import Link from 'next/link';
-import {ArrowRight,ArrowUpRight,Sparkles,BookOpen,Clock3,Camera,GraduationCap,FileText} from 'lucide-react';
+﻿import Link from 'next/link';
+import {ArrowRight,ArrowUpRight,Sparkles,BookOpen,Clock3,Camera,GraduationCap,FileText,Briefcase} from 'lucide-react';
 import {publicEntries,settings} from '@/lib/data';
 import {Worlds,EntryGrid} from '@/components/public-ui';
 import {ProfilePortrait} from '@/components/profile-portrait';
-import {SplitHeading} from '@/components/motion';
 export default async function Home(){
  const [s,items]=await Promise.all([settings(),publicEntries()]);
  const components:Record<string,React.ReactNode>={
@@ -14,19 +13,19 @@ export default async function Home(){
  return <main id="main">
   <section className="hero" data-glow><div className="container hero-inner">
     <div className="hero-copy"><div className="eyebrow flex"><Sparkles size={16}/> Welcome to my personal website</div>
-      <SplitHeading delay={0.25}>Hi, I’m <span className="gradient-text">{s.site_name}.</span></SplitHeading>
+      <h1 className="hero-h1">{s.site_name}</h1>
       <p>{s.intro}</p>
       <div className="hero-actions"><Link className="button" href="/about">Get to know me <ArrowRight size={17}/></Link><Link className="button-outline" href="/explore">Explore my work <ArrowUpRight size={16}/></Link></div>
-      <div className="flex muted small"><Sparkles size={16} color="#adabff"/> A personal space for everything I write, learn, and create.</div>
+      <div className="quick-links hero-links" aria-label="Jump to a section">
+        <Link href="/books"><BookOpen size={20}/> Books <ArrowUpRight size={13}/></Link>
+        <Link href="/research"><FileText size={20}/> Research <ArrowUpRight size={13}/></Link>
+        <Link href="/memories"><Camera size={20}/> Photos <ArrowUpRight size={13}/></Link>
+        <Link href="/learning"><GraduationCap size={20}/> Courses <ArrowUpRight size={13}/></Link>
+        <Link href="/projects"><Briefcase size={20}/> Projects <ArrowUpRight size={13}/></Link>
+        <Link href="/journal"><Sparkles size={20}/> Life Updates <ArrowUpRight size={13}/></Link>
+      </div>
     </div>
     <div className="hero-portrait-area"><ProfilePortrait mediaId={s.portrait_media_id} displayName={s.site_name}/></div>
-  </div></section>
-  <section data-reveal className="container quick-discovery" aria-label="Quick navigation"><div className="quick-discovery-label">Find your way around</div><div className="quick-links">
-    <Link href="/books"><BookOpen size={20}/> Books <ArrowUpRight size={13}/></Link>
-    <Link href="/research"><FileText size={20}/> Research <ArrowUpRight size={13}/></Link>
-    <Link href="/memories"><Camera size={20}/> Photos <ArrowUpRight size={13}/></Link>
-    <Link href="/learning"><GraduationCap size={20}/> Courses <ArrowUpRight size={13}/></Link>
-    <Link href="/journal"><Sparkles size={20}/> Life Updates <ArrowUpRight size={13}/></Link>
   </div></section>
   {(s.home_sections||['worlds','latest','timeline']).map(k=>components[k]||null)}
  </main>
