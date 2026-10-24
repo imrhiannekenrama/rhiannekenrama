@@ -1,7 +1,7 @@
-export type EntryType = 'book'|'research'|'album'|'course'|'journal'|'project'|'idea'|'achievement'|'page';
+﻿export type EntryType = 'book'|'research'|'album'|'course'|'journal'|'project'|'idea'|'achievement'|'page';
 export type EntryStatus = 'draft'|'scheduled'|'published'|'archived';
 export type Visibility = 'private'|'unlisted'|'public';
-export type Block = { id:string; type:'paragraph'|'heading'|'quote'|'list'|'image'|'file'|'divider'; text:string; media_id?:string };
+export type Block = { id:string; type:'paragraph'|'heading'|'quote'|'list'|'image'|'file'|'divider'|'gallery'|'video'; text:string; media_id?:string; media_ids?:string[]; interval?:number };
 export type Entry = {
  id:string; type:EntryType; slug:string; title:string; summary:string; body:Block[]; tags:string[]; metadata:Record<string,string>;
  cover_media_id:string|null; status:EntryStatus; visibility:Visibility; published_at:string|null;
