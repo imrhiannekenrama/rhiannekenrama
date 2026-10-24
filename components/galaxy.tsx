@@ -3,13 +3,13 @@ import {useState} from 'react';
 import Link from 'next/link';
 import {ArrowUpRight,RotateCcw,BookOpen,FlaskConical,Camera,GraduationCap,NotebookPen,Rocket,BrainCircuit,Award} from 'lucide-react';
 import {sections} from '@/lib/types';
-const iconMap:Record<string,[React.Com](https://React.Com)ponentType<{x?:number;y?:number;width?:number;height?:number;color?:string;strokeWidth?:number}>>={BookOpen,FlaskConical,Camera,GraduationCap,NotebookPen,Rocket,BrainCircuit,Award};
+const iconMap:Record<string,any>={BookOpen,FlaskConical,Camera,GraduationCap,NotebookPen,Rocket,BrainCircuit,Award};
 const desc:Record<string,string>={book:'Stories and guides published on Amazon and Gumroad.',research:'Mathematics research from Leyte Normal University.',album:'Photographs of family, school, and milestones.',course:'Courses, studies, and the learning journey.',journal:'Updates and reflections along the way.',project:'Web platforms and data systems I built.',idea:'Ideas worth growing.',achievement:'Chess, competitions, and milestones.'};
 const CX=380,CY=280;
 const inner=[315,225,135,45].map(a=>[CX+168*Math.cos(a*Math.PI/180),CY-118*Math.sin(a*Math.PI/180)]);
 const outer=[268,182,90,0].map(a=>[CX+262*Math.cos(a*Math.PI/180),CY-186*Math.sin(a*Math.PI/180)]);
 const pts=[...inner,...outer].map(([x,y])=>[Math.round(x*10)/10,Math.round(y*10)/10]);
-const stars:React.ReactNode[]=[[72,52],[151,148],[648,72],[703,178],[92,428],[668,470],[536,38],[204,88],[592,432],[355,124],[58,240],[712,300],[283,508],[477,518]].map(([x,y],i)=><circle key={i} className={i%4===0?'star twinkle':'star'} cx={x} cy={y} r={i%3===0?1.6:1.1} opacity={.5}/>);
+const stars:any[]=[[72,52],[151,148],[648,72],[703,178],[92,428],[668,470],[536,38],[204,88],[592,432],[355,124],[58,240],[712,300],[283,508],[477,518]].map(([x,y],i)=><circle key={i} className={i%4===0?'star twinkle':'star'} cx={x} cy={y} r={i%3===0?1.6:1.1} opacity={.5}/>);
 
 export function Galaxy({compact=false}:{compact?:boolean}){
  const [active,setActive]=useState(-1);const [list,setList]=useState(false);
