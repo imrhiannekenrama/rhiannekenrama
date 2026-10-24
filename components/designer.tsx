@@ -1,10 +1,11 @@
-'use client';
+﻿'use client';
 import {useState} from 'react';
 import type {Settings} from '@/lib/types';
 import {ArrowUp,ArrowDown,Eye,EyeOff} from 'lucide-react';
-const all=[{id:'worlds',name:'Explore Worlds',detail:'Immersive gateways to your content categories'},{id:'latest',name:'Recently Published',detail:'Newest published books, research, memories and updates'},{id:'timeline',name:'Time Machine Feature',detail:'A feature section highlighting your life timeline'}];
+const all=[{id:'worlds',name:'Explore Worlds',detail:'Immersive gateways to your content categories'},{id:'latest',name:'Recently Published',detail:'Newest published books, research, memories and updates'}];
 export function Designer({settings:s}:{settings:Settings}){const [active,setActive]=useState(s.home_sections||all.map(x=>x.id)),[msg,setMsg]=useState(''),[busy,setBusy]=useState(false);
  function shift(id:string,n:number){setActive(v=>{const a=[...v],i=a.indexOf(id),j=i+n;if(j<0||j>=a.length)return v;[a[i],a[j]]=[a[j],a[i]];return a})}
  async function save(){setBusy(true);const r=await fetch('/api/studio/design',{method:'PATCH',headers:{'Content-Type':'application/json'},body:JSON.stringify({home_sections:active})});const d=await r.json();setMsg(r.ok?'Homepage design published.':d.error||'Save failed');setBusy(false)}
  return <div className="stack"><div className="card"><h3>Homepage sections</h3><p className="small">Show, hide and reorder the major sections of your homepage without editing source files.</p>{all.map(s=>{const on=active.includes(s.id);return <div key={s.id} className="card space wrap" style={{marginBottom:10,padding:14}}><div><strong>{s.name}</strong><p className="small" style={{margin:0}}>{s.detail}</p></div><div className="page-actions"><button className="icon-button" aria-label={on?'Hide':'Show'} onClick={()=>setActive(v=>on?v.filter(x=>x!==s.id):[...v,s.id])}>{on?<Eye size={16}/>:<EyeOff size={16}/>}</button><button disabled={!on||active.indexOf(s.id)===0} className="icon-button" title="Move up" onClick={()=>shift(s.id,-1)}><ArrowUp size={16}/></button><button disabled={!on||active.indexOf(s.id)===active.length-1} className="icon-button" title="Move down" onClick={()=>shift(s.id,1)}><ArrowDown size={16}/></button></div></div>})}<button className="button" disabled={busy} onClick={()=>void save()}>{busy?'Saving...':'Publish homepage design'}</button>{msg&&<p className="notice">{msg}</p>}</div><div className="card"><h3>Future design modules</h3><p>Custom page blocks, type-specific themes, additional visual templates, and full drag-and-drop are part of the next release. The working section organizer above is the first editable design system.</p></div></div>
 }
+

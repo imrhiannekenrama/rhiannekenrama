@@ -4,7 +4,7 @@ import Link from 'next/link';
 import {usePathname} from 'next/navigation';
 import {Menu,X,Search} from 'lucide-react';
 
-const mainNav=[['/','Home'],['/about','About'],['/explore','Explore'],['/ideas','Ideas'],['/achievements','Achievements'],['/timeline','Timeline'],['/contact','Contact']] as const;
+const mainNav=[['/','Home'],['/about','About'],['/explore','Explore'],['/ideas','Ideas'],['/achievements','Achievements'],['/contact','Contact']] as const;
 export function SiteHeader({name='Rhianne Ken S. Rama'}:{name?:string}){
  const [open,setOpen]=useState(false);const path=usePathname();
  useEffect(()=>{if(!open)return;const onKey=(e:KeyboardEvent)=>{if(e.key==='Escape')setOpen(false);};
@@ -20,4 +20,5 @@ export function SiteHeader({name='Rhianne Ken S. Rama'}:{name?:string}){
   <button className="icon-button menu-toggle" aria-label={open?'Close menu':'Open menu'} aria-expanded={open} aria-controls="mobile-site-nav" onClick={()=>setOpen(v=>!v)}>{open?<X/>:<Menu/>}</button>
  </div>{open&&<nav id="mobile-site-nav" className="container nav-mobile" aria-label="Mobile navigation">{mainNav.map(([href,label])=><Link key={href} href={href} aria-current={path===href?'page':undefined}>{label}</Link>)}<Link href="/search">Search</Link></nav>}</header>;
 }
-export function SiteFooter({name='Rhianne Ken S. Rama'}:{name?:string}){return <footer className="footer"><div className="container space wrap"><div><strong>{name}</strong><p className="small" style={{margin:'4px 0'}}>Books, research, photographs and moments from my life.</p></div><div className="flex wrap"><Link href="/about" className="small">About Me</Link><Link href="/explore" className="small">Explore</Link><Link href="/ideas" className="small">Ideas</Link><Link href="/achievements" className="small">Achievements</Link><Link href="/timeline" className="small">Timeline</Link><Link href="/contact" className="small">Contact</Link></div></div></footer>}
+export function SiteFooter({name='Rhianne Ken S. Rama'}:{name?:string}){return <footer className="footer"><div className="container space wrap"><div><strong>{name}</strong><p className="small" style={{margin:'4px 0'}}>Books, research, photographs and moments from my life.</p></div><div className="flex wrap"><Link href="/about" className="small">About Me</Link><Link href="/explore" className="small">Explore</Link><Link href="/ideas" className="small">Ideas</Link><Link href="/achievements" className="small">Achievements</Link><Link href="/contact" className="small">Contact</Link></div></div></footer>}
+

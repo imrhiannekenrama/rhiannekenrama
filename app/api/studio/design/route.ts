@@ -1,3 +1,4 @@
-import {NextRequest,NextResponse} from 'next/server';
+﻿import {NextRequest,NextResponse} from 'next/server';
 import {secureOwner,reject} from '@/lib/api';
-export async function PATCH(req:NextRequest){const o=await secureOwner(req);if(o.error)return o.error;const d=await req.json();const valid=['worlds','latest','timeline'];const sections=Array.isArray(d.home_sections)?d.home_sections:[];if(sections.some((s:string)=>!valid.includes(s))||new Set(sections).size!==sections.length)return reject('Invalid section settings');const {error}=await o.owner!.db.from('site_settings').update({home_sections:sections,updated_at:new Date().toISOString()}).eq('id',1);return error?reject(error.message):NextResponse.json({ok:true});}
+export async function PATCH(req:NextRequest){const o=await secureOwner(req);if(o.error)return o.error;const d=await req.json();const valid=['worlds','latest'];const sections=Array.isArray(d.home_sections)?d.home_sections:[];if(sections.some((s:string)=>!valid.includes(s))||new Set(sections).size!==sections.length)return reject('Invalid section settings');const {error}=await o.owner!.db.from('site_settings').update({home_sections:sections,updated_at:new Date().toISOString()}).eq('id',1);return error?reject(error.message):NextResponse.json({ok:true});}
+
