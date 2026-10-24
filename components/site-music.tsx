@@ -18,7 +18,7 @@ const TRACKS={
   fallback:{file:'floating-cities.mp3',label:'Floating Cities'},
 } as const;
 type TrackKey=keyof typeof TRACKS;
-const BASE_VOLUME=0.32;
+const BASE_VOLUME=1;
 const STORE_KEY='rkr-music-off';
 
 function trackFor(path:string):TrackKey|null{
@@ -86,4 +86,5 @@ export function SiteMusic(){
     </button>
   </>;
 }
+
 
