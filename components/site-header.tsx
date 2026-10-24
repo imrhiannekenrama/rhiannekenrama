@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 import Link from 'next/link';
 import {usePathname} from 'next/navigation';
 import {Search,ChevronDown} from 'lucide-react';
@@ -8,7 +8,7 @@ const moreNav=[['/learning','Courses & Skills'],['/projects','Projects'],['/idea
 export function SiteHeader({name='Rhianne Ken S. Rama'}:{name?:string}){
  const path=usePathname();
  return <header className="site-header"><div className="container site-header-inner">
-  <Link href="/" className="logo" aria-label={`${name} � Homepage`}><span className="logo-mark" aria-hidden>RR</span><span className="site-name">{name}</span></Link>
+  <Link href="/" className="logo" aria-label={`${name} — Homepage`}><span className="logo-mark" aria-hidden>RR</span><span className="site-name">{name}</span></Link>
   <nav className="nav" aria-label="Main navigation">
     {mainNav.map(([href,label])=><Link key={href} href={href} aria-current={path===href?'page':undefined}>{label}</Link>)}
     <details className="nav-more"><summary>More <ChevronDown size={13}/></summary><div className="nav-dropdown">{moreNav.map(([href,label])=><Link key={href} href={href}>{label}</Link>)}</div></details>
