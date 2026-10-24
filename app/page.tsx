@@ -3,6 +3,7 @@ import {ArrowRight,ArrowUpRight,Sparkles,BookOpen,Clock3,Camera,GraduationCap,Fi
 import {publicEntries,settings} from '@/lib/data';
 import {Worlds,EntryGrid} from '@/components/public-ui';
 import {ProfilePortrait} from '@/components/profile-portrait';
+import {MathBackdrop} from '@/components/math-backdrop';
 export default async function Home(){
  const [s,items]=await Promise.all([settings(),publicEntries()]);
  const components:Record<string,React.ReactNode>={
@@ -11,7 +12,7 @@ export default async function Home(){
   timeline:<section key="timeline" data-reveal data-delay="0.15" className="section" style={{background:'#101b30'}}><div className="container two grid" style={{alignItems:'center'}}><div><div className="eyebrow">My story through the years</div><h2>A life still unfolding.</h2><p>Follow the milestones, experiences, and questions that connect the different chapters of my life.</p><Link href="/timeline" className="button">View my timeline <Clock3 size={16}/></Link></div><div className="card" style={{minHeight:230,display:'grid',placeItems:'center'}}><div className="stack" style={{textAlign:'center'}}><BookOpen size={56} color="#b4b1ff" style={{margin:'auto'}}/><h3>Writing. Learning. Becoming.</h3><p>My story, recorded one chapter at a time.</p></div></div></div></section>
  };
  return <main id="main">
-  <section className="hero" data-glow><div className="container hero-inner">
+  <section className="hero" data-glow><MathBackdrop/><div className="container hero-inner">
     <div className="hero-copy">
       <h1 className="hero-h1">{s.site_name}</h1>
       <div className="hero-actions"><Link className="button" href="/about">Get to know me <ArrowRight size={17}/></Link></div>
@@ -29,3 +30,4 @@ export default async function Home(){
   {(s.home_sections||['worlds','latest','timeline']).map(k=>components[k]||null)}
  </main>
  }
+
