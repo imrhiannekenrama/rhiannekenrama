@@ -1,0 +1,57 @@
+/* =====================================================================
+   MOTION: page curtain, theme reveal, headline words, scroll reveals,
+   marquee, glow. Everything reads the --speed dial in tokens.css.
+   ===================================================================== */
+
+/* ---- Headline words rise out of a mask: <h1 data-split data-delay="0.3">Text</h1> ---- */
+.mask { display: inline-block; overflow: hidden; vertical-align: top; padding: 0.08em 0.04em 0.16em; margin: -0.08em -0.04em -0.16em; }
+.word { display: inline-block; transform: translateY(115%) rotate(5deg); transition: transform var(--t-slow) var(--ease); transition-delay: calc(var(--i) * var(--stagger) + var(--split-delay, 0s)); }
+.is-in .word { transform: none; }
+
+/* ---- Scroll reveal: <div data-reveal> (blur-in) or data-reveal="clip" (wipe) ---- */
+[data-reveal] { opacity: 0; filter: blur(10px); transform: translateY(26px); transition: opacity var(--t-slow) var(--ease), filter var(--t-slow) var(--ease), transform var(--t-slow) var(--ease); transition-delay: var(--dl, 0s); }
+[data-reveal='clip'] { opacity: 1; filter: none; transform: none; clip-path: inset(100% 0 0 0); transition: clip-path var(--t-slow) var(--ease); transition-delay: var(--dl, 0s); }
+[data-reveal].is-in { opacity: 1; filter: none; transform: none; }
+[data-reveal='clip'].is-in { clip-path: inset(0 0 0 0); }
+
+/* ---- Page curtain: two panels with curved edges ---- */
+.curtain { position: fixed; inset: 0; z-index: 100; overflow: hidden; pointer-events: none; }
+.curtain.is-in, .curtain.is-out, .curtain.is-covered { pointer-events: auto; }
+.curtain-panel { position: absolute; left: 0; right: 0; top: -10vh; height: 120vh; transform: translateY(100%); border-radius: 50% 50% 0 0 / 10vh 10vh 0 0; display: grid; place-items: center; }
+.curtain-a { background: var(--accent); }
+.curtain-b { background: var(--surface); }
+.curtain.is-in .curtain-panel, .curtain.is-out .curtain-panel { transition: transform var(--t-curtain) var(--ease); }
+.curtain.is-in .curtain-panel, .curtain.is-covered .curtain-panel { transform: none; }
+.curtain.is-out .curtain-panel { transform: translateY(-100%); }
+.curtain.is-in .curtain-b { transition-delay: calc(0.1s * var(--speed)); }   /* follows the first panel */
+.curtain.is-out .curtain-a { transition-delay: calc(0.1s * var(--speed)); }  /* lingers as a coloured edge */
+.curtain-label { font: 600 clamp(2.5rem, 9vw, 7rem) var(--font-display); letter-spacing: -0.045em; padding-top: 10vh; opacity: 0; transition: opacity var(--t-fast) calc(0.45s * var(--speed)); }
+.curtain.is-in .curtain-label, .curtain.is-covered .curtain-label { opacity: 1; }
+
+/* ---- Dark/light switch: circular reveal from the toggle button ---- */
+::view-transition-old(root), ::view-transition-new(root) { animation: none; mix-blend-mode: normal; }
+::view-transition-new(root) { animation: theme-reveal calc(0.9s * var(--speed)) var(--ease) both; }
+@keyframes theme-reveal { from { clip-path: circle(0 at var(--x, 50%) var(--y, 0)); } to { clip-path: circle(150% at var(--x, 50%) var(--y, 0)); } }
+
+/* ---- Cursor glow: <section data-glow> ---- */
+[data-glow] { background: radial-gradient(620px circle at var(--mx, 72%) var(--my, 28%), color-mix(in srgb, var(--accent) 26%, transparent), transparent 65%); }
+
+/* ---- Marquee: <div class="marquee"><div class="marquee-track"> items twice </div></div> ---- */
+.marquee { overflow: hidden; border-block: 1px solid var(--line); padding: 1.1rem 0; }
+.marquee-track { display: flex; width: max-content; animation: marquee calc(45s * var(--speed)) linear infinite; }
+.marquee:hover .marquee-track { animation-play-state: paused; }
+.marquee-track > * { white-space: nowrap; padding-right: 3.5rem; font: 500 1.5rem var(--font-display); color: var(--muted); letter-spacing: -0.02em; }
+.marquee-track b { color: var(--text); margin-right: 0.7rem; }
+@keyframes marquee { to { transform: translateX(-50%); } }
+
+/* ---- Pulse dot ---- */
+.pulse { width: 0.6rem; height: 0.6rem; border-radius: 50%; background: #2cc9a8; animation: pulse 2.4s infinite; }
+@keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(44, 201, 168, 0.6); } 70%, 100% { box-shadow: 0 0 0 10px transparent; } }
+
+/* ---- Respect "reduce motion" ---- */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  .marquee-track { animation: none; }
+  [data-reveal], .word { opacity: 1; filter: none; transform: none; clip-path: none; }
+}

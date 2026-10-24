@@ -1,0 +1,7 @@
+import Link from 'next/link';
+import {LayoutDashboard,Files,Image,Palette,Network,CalendarClock,ChartNoAxesCombined,MessagesSquare,Settings,PlusCircle,Eye} from 'lucide-react';
+import {requireOwner} from '@/lib/auth';
+import {Logout} from '@/components/logout-button';
+const menu=[['/studio','Dashboard',LayoutDashboard],['/studio/content','Content Library',Files],['/studio/media','Media Vault',Image],['/studio/design','Site Designer',Palette],['/studio/connections','Connections',Network],['/studio/publishing','Publishing',CalendarClock],['/studio/analytics','Analytics',ChartNoAxesCombined],['/studio/inbox','Inbox',MessagesSquare],['/studio/settings','Settings',Settings]] as const;
+export const dynamic='force-dynamic';
+export default async function StudioLayout({children}:{children:React.ReactNode}){await requireOwner();return <main id="main" className="studio-layout"><aside className="studio-sidebar" aria-label="Studio navigation"><div className="eyebrow" style={{padding:'0 15px',marginBottom:15}}>Owner control center</div><Link href="/studio/content/new" style={{background:'#323763',color:'white',marginBottom:13}}><PlusCircle size={18}/> New Content</Link>{menu.map(([href,label,Icon])=><Link key={href} href={href}><Icon size={18}/>{label}</Link>)}<div className="divider"/><Link href="/"><Eye size={18}/> View public site</Link><Logout/></aside><div className="studio-main">{children}</div></main>}

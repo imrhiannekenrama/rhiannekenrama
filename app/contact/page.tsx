@@ -1,0 +1,3 @@
+import {ContactForm} from '@/components/contact-form';
+import {settings} from '@/lib/data';
+export default async function Contact(){const s=await settings();return <main id="main"><div data-reveal className="page-head"><div className="container"><div className="eyebrow">Connect / Say Hello</div><h1>Let’s connect.</h1><p>Questions, collaboration, feedback, or just a thoughtful message.</p></div></div><div className="container section" style={{maxWidth:800}}>{s.show_contact?<ContactForm/>:<div className="empty"><h3>Contact form is currently closed.</h3></div>}{s.contact_email&&<p className="small" style={{marginTop:20}}>Email: <a href={`mailto:${s.contact_email}`}>{s.contact_email}</a></p>}</div></main>}

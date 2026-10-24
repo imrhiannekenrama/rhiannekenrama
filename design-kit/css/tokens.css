@@ -1,0 +1,56 @@
+/* =====================================================================
+   TOKENS: colours, type, spacing and animation speed.
+   Change values here and the whole kit updates.
+   ===================================================================== */
+:root {
+  /* ---- SPEED: one dial for every animation ----
+     1 = default, 0.6 = snappy, 1.5 = slow and cinematic */
+  --speed: 1;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);          /* smooth, confident deceleration */
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --t-fast: calc(0.3s * var(--speed));              /* hovers, colour changes */
+  --t-base: calc(0.6s * var(--speed));              /* cards, buttons, accordions */
+  --t-slow: calc(1s * var(--speed));                /* reveals, headline words */
+  --t-curtain: calc(0.75s * var(--speed));          /* page transition panels */
+  --stagger: calc(0.07s * var(--speed));            /* delay between headline words */
+
+  /* ---- TYPE ---- */
+  --font-display: 'Bricolage Grotesque', system-ui, sans-serif;
+  --font-body: 'Instrument Sans', system-ui, sans-serif;
+  --fs-xl: clamp(2.9rem, 8.2vw, 7.2rem);
+  --fs-lg: clamp(2.1rem, 5vw, 3.9rem);
+  --fs-lead: clamp(1.12rem, 2vw, 1.4rem);
+  --fs-body: 1.0625rem;
+
+  /* ---- SHAPE & SPACE ---- */
+  --r-sm: 0.8rem; --r-md: 1.25rem; --r-lg: 1.5rem; --r-pill: 999px;
+  --wrap: 1180px;
+  --section: clamp(4rem, 9vw, 8rem);
+
+  /* ---- COLOUR: light (default) ---- */
+  --bg: #f3f4fb;        /* page */
+  --surface: #ffffff;   /* cards, panels */
+  --surface-2: #e4e7f8; /* hover fills, tracks */
+  --text: #14173a;
+  --muted: #5a6090;
+  --line: rgba(20, 23, 58, 0.14);
+  --accent: #3f4de0;    /* buttons, links, highlights */
+  --on-accent: #ffffff; /* text on top of accent */
+  color-scheme: light;
+}
+
+/* ---- COLOUR: dark ---- */
+:root[data-theme='dark'] {
+  --bg: #0e1020; --surface: #171b36; --surface-2: #232a52;
+  --text: #eceeff; --muted: #a0a6cc; --line: rgba(236, 238, 255, 0.13);
+  --accent: #a5b1ff; --on-accent: #0e1020;
+  color-scheme: dark;
+}
+/* No JavaScript? follow the visitor's system setting */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --bg: #0e1020; --surface: #171b36; --surface-2: #232a52;
+    --text: #eceeff; --muted: #a0a6cc; --line: rgba(236, 238, 255, 0.13);
+    --accent: #a5b1ff; --on-accent: #0e1020; color-scheme: dark;
+  }
+}

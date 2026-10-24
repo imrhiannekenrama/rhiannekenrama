@@ -1,0 +1,3 @@
+import {requireOwner} from '@/lib/auth';
+import {Connections} from '@/components/connections';
+export default async function ConnectionsPage(){const {db}=await requireOwner();const [{data:e},{data:links}]=await Promise.all([db.from('entries').select('*').is('deleted_at',null).order('title'),db.from('entry_links').select('*').order('id')]);return <><div className="studio-title"><div className="eyebrow">Studio / Knowledge Graph</div><h1>Content Connections</h1><p>Connect books, courses, research, projects and memories through meaningful relationships.</p></div><Connections entries={e||[]} initial={links||[]}/></>}

@@ -1,0 +1,11 @@
+<!-- Paste inside <head> BEFORE your stylesheets. Sets dark/light before the page paints (no flash). -->
+<script>
+  try {
+    var r = document.documentElement;
+    r.dataset.theme = localStorage.getItem('theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    var p = localStorage.getItem('palette'); if (p) r.dataset.palette = p;
+  } catch (e) {}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;600;700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">

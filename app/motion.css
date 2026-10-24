@@ -1,0 +1,44 @@
+/* =====================================================================
+   MOTION LAYER — ported from design-kit/css/motion.css
+   Controlled by ONE dial: --speed (1 = current feel, 0.6 snappy, 1.6 cinematic).
+   Elements opt in with data attributes:
+     data-split   headline words rise out of a mask (handled by SplitHeading)
+     data-reveal  blur-in on scroll ("clip" wipes in instead)
+     data-tilt    3D tilt following the cursor
+     data-glow    soft accent glow follows the cursor
+   ===================================================================== */
+:root{
+  --speed:1;
+  --ease:cubic-bezier(.22,1,.36,1);
+  --t-fast:calc(.3s * var(--speed));
+  --t-base:calc(.6s * var(--speed));
+  --t-slow:calc(1s * var(--speed));
+  --stagger:calc(.07s * var(--speed));
+}
+
+/* ---- Headline words rise out of a mask ---- */
+.mask{display:inline-block;overflow:hidden;vertical-align:top;padding:.08em .04em .16em;margin:-.08em -.04em -.16em}
+.word{display:inline-block;transform:translateY(115%) rotate(5deg);transition:transform var(--t-slow) var(--ease);transition-delay:calc(var(--i,0) * var(--stagger))}
+.is-in .word{transform:none}
+
+/* ---- Scroll reveal ---- */
+[data-reveal]{opacity:0;filter:blur(10px);transform:translateY(26px);transition:opacity var(--t-slow) var(--ease),filter var(--t-slow) var(--ease),transform var(--t-slow) var(--ease);transition-delay:var(--dl,0s)}
+[data-reveal='clip']{opacity:1;filter:none;transform:none;clip-path:inset(100% 0 0 0);transition:clip-path var(--t-slow) var(--ease);transition-delay:var(--dl,0s)}
+[data-reveal].is-in{opacity:1;filter:none;transform:none}
+[data-reveal='clip'].is-in{clip-path:inset(0 0 0 0)}
+
+/* ---- Cursor glow on a section: <section data-glow> ---- */
+[data-glow]::after{content:'';position:absolute;inset:0;pointer-events:none;border-radius:inherit;
+  background:radial-gradient(620px circle at var(--mx,72%) var(--my,28%),color-mix(in srgb,var(--accent) 24%,transparent),transparent 65%);
+  opacity:0;transition:opacity var(--t-base) var(--ease)}
+[data-glow].glowing::after{opacity:1}
+
+/* ---- 3D tilt ---- */
+[data-tilt]{transition:transform var(--t-fast) var(--ease);transform-style:preserve-3d;will-change:transform}
+
+/* ---- Reduced motion: everything settles instantly, nothing animates ---- */
+@media (prefers-reduced-motion:reduce){
+  :root{--speed:0}
+  .word,[data-reveal],[data-tilt]{transition:none!important;transform:none!important;filter:none!important;opacity:1!important;clip-path:none!important}
+  [data-glow]::after{display:none}
+}

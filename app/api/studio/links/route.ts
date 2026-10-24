@@ -1,0 +1,5 @@
+import {NextRequest,NextResponse} from 'next/server';
+import {secureOwner,reject} from '@/lib/api';
+export async function GET(req:NextRequest){const o=await secureOwner(req);if(o.error)return o.error;const {data,error}=await o.owner!.db.from('entry_links').select('*').limit(500);return error?reject(error.message):NextResponse.json({links:data});}
+export async function POST(req:NextRequest){const o=await secureOwner(req);if(o.error)return o.error;const d=await req.json();if(d.source_id===d.target_id)return reject('Cannot connect an entry to itself');const {data,error}=await o.owner!.db.from('entry_links').insert({source_id:d.source_id,target_id:d.target_id,label:String(d.label||'related to').slice(0,100)}).select('*').single();return error?reject(error.message):NextResponse.json({link:data});}
+export async function DELETE(req:NextRequest){const o=await secureOwner(req);if(o.error)return o.error;const id=req.nextUrl.searchParams.get('id');if(!id)return reject('Missing ID');const {error}=await o.owner!.db.from('entry_links').delete().eq('id',id);return error?reject(error.message):NextResponse.json({ok:true});}

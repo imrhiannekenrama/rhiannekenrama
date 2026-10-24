@@ -1,0 +1,25 @@
+'use client';
+import {useEffect,useState,type FormEvent} from 'react';
+import type {Media} from '@/lib/types';
+import {Upload,FileText,Trash2,RefreshCw,Check} from 'lucide-react';
+import {supabaseBrowser} from '@/lib/supabase/browser';
+export function MediaManager({select,onClose}:{select?:(media:Media)=>void;onClose?:()=>void}){
+ const [items,setItems]=useState<Media[]>([]),[loading,setLoading]=useState(true),[busy,setBusy]=useState(false),[notice,setNotice]=useState(''),[file,setFile]=useState<File|null>(null),[alt,setAlt]=useState('');
+ async function load(){setLoading(true);const r=await fetch('/api/studio/media');const d=await r.json();setItems(d.items||[]);if(!r.ok)setNotice(d.error||'Could not load media');setLoading(false)}
+ useEffect(()=>{void load()},[]);
+ async function upload(e:FormEvent){e.preventDefault();if(!file)return;setBusy(true);setNotice('');try{
+ const allowed:Record<string,string>={'image/png':'png','image/jpeg':'jpg','image/gif':'gif','image/webp':'webp','application/pdf':'pdf'};
+ if(!allowed[file.type])throw new Error('Choose PNG, JPEG, GIF, WEBP or PDF.');
+ if(!file.size||file.size>15*1024*1024)throw new Error('File size must be between 1 byte and 15MB.');
+ const db=supabaseBrowser();const {data:{user}}=await db.auth.getUser();if(!user)throw new Error('Please sign in again.');
+ const path=`${user.id}/${crypto.randomUUID()}.${allowed[file.type]}`;
+ // Upload directly to the private Supabase bucket. Vercel's small function request limit is bypassed.
+ const {error}=await db.storage.from('archive').upload(path,file,{contentType:file.type,upsert:false});if(error)throw error;
+ const {error:recordError}=await db.from('media').insert({path,filename:file.name.slice(0,220),mime:file.type,bytes:file.size,alt_text:alt.slice(0,250)});
+ if(recordError){await db.storage.from('archive').remove([path]);throw recordError;}
+ setFile(null);setAlt('');setNotice('Upload complete. File added to your private archive.');await load();
+ }catch(e){setNotice((e as Error).message)}finally{setBusy(false)}}
+ async function remove(id:string){if(!confirm('Delete this media file? This is only allowed when the file is not in use.'))return;const r=await fetch(`/api/studio/media?id=${id}`,{method:'DELETE'});const d=await r.json();if(!r.ok)setNotice(d.error||'Delete failed');else{setItems(x=>x.filter(m=>m.id!==id));setNotice('File deleted.')}}
+ return <div className="stack"><form onSubmit={upload} className="upload-drop"><Upload size={27} color="#aaaaff"/><h3>Upload an image or PDF</h3><p className="small">PNG, JPEG, GIF, WEBP or PDF. Maximum 15MB. All files are kept in private storage.</p><div className="field" style={{maxWidth:430,margin:'12px auto'}}><label htmlFor="new-file">Choose file</label><input id="new-file" type="file" accept="image/png,image/jpeg,image/gif,image/webp,application/pdf" onChange={e=>setFile(e.target.files?.[0]||null)} required/></div><div className="field" style={{maxWidth:430,margin:'12px auto'}}><label htmlFor="media-alt">Alternative text (for images)</label><input id="media-alt" className="input" maxLength={250} value={alt} onChange={e=>setAlt(e.target.value)} placeholder="Describe the image clearly"/></div><button disabled={!file||busy} className="button" type="submit">{busy?'Uploading...':'Upload file'}</button></form>
+ {notice&&<div className="notice" role="status">{notice}</div>}<div className="space"><h3>My media vault ({items.length})</h3><button className="button-ghost" onClick={()=>void load()}><RefreshCw size={15}/> Refresh</button></div>{loading?<p>Loading media...</p>:!items.length?<div className="empty"><p>No files yet. Upload your first photograph, cover or paper.</p></div>:<div className="file-grid">{items.filter(m=>!select||m.mime.startsWith('image/')).map(m=><div className="file-card" key={m.id}>{m.mime.startsWith('image/')?<img src={`/api/media/${m.id}`} alt={m.alt_text||m.filename}/>:<div style={{height:110,display:'grid',placeItems:'center'}}><FileText size={35}/></div>}<strong className="small" title={m.filename} style={{overflowWrap:'anywhere'}}>{m.filename}</strong><small>{(m.bytes/1024).toFixed(0)} KB · {m.mime.split('/')[1]}</small><div className="flex wrap" style={{marginTop:11}}>{select&&<button className="button" onClick={()=>{select(m);onClose?.()}}><Check size={14}/> Select</button>}<button className="icon-button" aria-label={`Delete ${m.filename}`} title="Delete unused media" onClick={()=>void remove(m.id)}><Trash2 size={16}/></button></div></div>)}</div>}</div>
+}

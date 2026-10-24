@@ -1,0 +1,20 @@
+/* =====================================================================
+   OPTIONAL PALETTES. Add data-palette="ocean" to <html> (or call
+   Kit.setPalette('ocean')). Each has a light and a dark version.
+   Copy a block and change the hex values to invent your own.
+   ===================================================================== */
+/* ocean */
+:root[data-palette='ocean'] { --bg:#eef6f9; --surface:#fff; --surface-2:#dcecf2; --text:#0b2a36; --muted:#4d6f7c; --line:rgba(11,42,54,.14); --accent:#0a7ea4; --on-accent:#fff; }
+:root[data-palette='ocean'][data-theme='dark'] { --bg:#08171d; --surface:#0f2630; --surface-2:#17394a; --text:#e6f6fb; --muted:#8fb3c1; --line:rgba(230,246,251,.13); --accent:#62cdf0; --on-accent:#08171d; }
+/* forest */
+:root[data-palette='forest'] { --bg:#f1f5ef; --surface:#fff; --surface-2:#e0eadb; --text:#15281a; --muted:#566b58; --line:rgba(21,40,26,.14); --accent:#2f7d4a; --on-accent:#fff; }
+:root[data-palette='forest'][data-theme='dark'] { --bg:#0d1610; --surface:#15221a; --surface-2:#1f3326; --text:#e8f3ea; --muted:#93ac98; --line:rgba(232,243,234,.13); --accent:#7bd592; --on-accent:#0d1610; }
+/* ember */
+:root[data-palette='ember'] { --bg:#fbf3ef; --surface:#fff; --surface-2:#f3e1d9; --text:#2b1620; --muted:#7a5560; --line:rgba(43,22,32,.14); --accent:#d6452f; --on-accent:#fff; }
+:root[data-palette='ember'][data-theme='dark'] { --bg:#1a0f14; --surface:#26161d; --surface-2:#3a2230; --text:#fbeee9; --muted:#c5a2a9; --line:rgba(251,238,233,.13); --accent:#ff8a65; --on-accent:#1a0f14; }
+/* rose */
+:root[data-palette='rose'] { --bg:#fbf1f5; --surface:#fff; --surface-2:#f4dde7; --text:#2a1020; --muted:#7a5568; --line:rgba(42,16,32,.14); --accent:#c2185b; --on-accent:#fff; }
+:root[data-palette='rose'][data-theme='dark'] { --bg:#170c13; --surface:#22121c; --surface-2:#35202e; --text:#fbe9f1; --muted:#c4a0b3; --line:rgba(251,233,241,.13); --accent:#ff7aa8; --on-accent:#170c13; }
+/* mono */
+:root[data-palette='mono'] { --bg:#f5f5f5; --surface:#fff; --surface-2:#e8e8e8; --text:#111; --muted:#666; --line:rgba(0,0,0,.14); --accent:#111; --on-accent:#fff; }
+:root[data-palette='mono'][data-theme='dark'] { --bg:#0b0b0b; --surface:#151515; --surface-2:#222; --text:#f2f2f2; --muted:#9a9a9a; --line:rgba(255,255,255,.14); --accent:#fff; --on-accent:#0b0b0b; }

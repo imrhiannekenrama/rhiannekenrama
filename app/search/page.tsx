@@ -1,0 +1,2 @@
+import {SearchUI} from '@/components/search-ui';
+export default function Search(){return <main id="main"><div data-reveal className="page-head"><div className="container"><div className="eyebrow">Discover / Universal Search</div><h1>Find something wonderful.</h1><p>Search your public archive across books, research, memories, courses, journals and projects.</p></div></div><section className="container section"><SearchUI/></section></main>}
