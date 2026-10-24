@@ -76,3 +76,18 @@ body{background-image:radial-gradient(#ffffff0d 1px,transparent 1px);background-
  -webkit-mask-image:linear-gradient(180deg,transparent 0,#000 8%,#000 90%,transparent 100%)}
 .math-backdrop text{fill:currentColor}
 @media(max-width:640px){.math-backdrop{opacity:.12}}
+
+/* ==== Galaxy redesign ==== */
+.galaxy{background:radial-gradient(ellipse at 50% 38%,#243158 0,#151f3c 45%,#0a1120 96%),radial-gradient(#c9d5ff22 1px,transparent 1px);background-size:auto,26px 26px;box-shadow:inset 0 0 90px #060a16cc;border-radius:25px}
+.world-node{transform-box:fill-box;transform-origin:center;transition:transform .22s ease}
+.world-node:hover{transform:scale(1.09)}
+.node-label{transition:fill .2s}
+.star{fill:#cfd9ff}
+@media(prefers-reduced-motion:no-preference){
+ .core-glow{animation:corePulse 4s ease-in-out infinite}
+ .twinkle{animation:starTwinkle 3.2s ease-in-out infinite}
+ .orbit-dash{animation:orbitDrift 26s linear infinite}
+}
+@keyframes corePulse{0%,100%{opacity:.7}50%{opacity:1}}
+@keyframes starTwinkle{0%,100%{opacity:.22}50%{opacity:.85}}
+@keyframes orbitDrift{to{stroke-dashoffset:-120}}
