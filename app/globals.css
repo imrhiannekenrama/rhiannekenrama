@@ -47,3 +47,25 @@
 /* ==== Hero minimal layer ==== */
 .hero-copy .hero-actions{margin:22px 0 0}
 .hero h1.hero-h1{margin:10px 0 4px}
+
+/* ==== Background design layer ==== */
+.hero{background:
+ radial-gradient(ellipse 60% 65% at 84% 26%,#3b2f8a66 0,transparent 55%),
+ radial-gradient(ellipse 55% 60% at 6% 82%,#0f4d7066 0,transparent 55%),
+ radial-gradient(ellipse 100% 80% at 50% 130%,#241a5c66 0,transparent 60%),
+ radial-gradient(ellipse at 79% 33%,#29316b7a 0,transparent 50%),
+ radial-gradient(ellipse at 12% 90%,#15456c4a,transparent 48%)}
+.hero::before{opacity:.26;background-size:38px 38px;
+ mask-image:linear-gradient(180deg,transparent 0,#000 15%,#000 85%,transparent 100%);
+ -webkit-mask-image:linear-gradient(180deg,transparent 0,#000 15%,#000 85%,transparent 100%)}
+.hero::after{content:'';position:absolute;inset:-1px;pointer-events:none;opacity:.5;
+ background:radial-gradient(ellipse 45% 40% at 50% 0%,#6366f11f,transparent 70%)}
+body{background-image:radial-gradient(#ffffff0d 1px,transparent 1px);background-size:46px 46px}
+.page-head{position:relative;background:
+ radial-gradient(ellipse 55% 70% at 88% 20%,#2c256259 0,transparent 55%),
+ radial-gradient(ellipse 60% 70% at 10% 90%,#123f5c47 0,transparent 55%)}
+.page-head::before{content:'';position:absolute;inset:0;pointer-events:none;opacity:.18;background-image:radial-gradient(#dde6ff 1px,transparent 1px);background-size:38px 38px;
+ mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 88%,transparent 100%);
+ -webkit-mask-image:linear-gradient(180deg,transparent 0,#000 12%,#000 88%,transparent 100%)}
+@media(prefers-reduced-motion:no-preference){.hero::after{animation:heroGlow 9s ease-in-out infinite alternate}}
+@keyframes heroGlow{from{opacity:.32}to{opacity:.58}}
