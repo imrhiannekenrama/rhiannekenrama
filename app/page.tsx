@@ -12,10 +12,9 @@ export default async function Home(){
  };
  return <main id="main">
   <section className="hero" data-glow><div className="container hero-inner">
-    <div className="hero-copy"><div className="eyebrow flex"><Sparkles size={16}/> Welcome to my personal website</div>
+    <div className="hero-copy">
       <h1 className="hero-h1">{s.site_name}</h1>
-      <p>{s.intro}</p>
-      <div className="hero-actions"><Link className="button" href="/about">Get to know me <ArrowRight size={17}/></Link><Link className="button-outline" href="/explore">Explore my work <ArrowUpRight size={16}/></Link></div>
+      <div className="hero-actions"><Link className="button" href="/about">Get to know me <ArrowRight size={17}/></Link></div>
       <div className="quick-links hero-links" aria-label="Jump to a section">
         <Link href="/books"><BookOpen size={20}/> Books <ArrowUpRight size={13}/></Link>
         <Link href="/research"><FileText size={20}/> Research <ArrowUpRight size={13}/></Link>

@@ -43,3 +43,7 @@
 .hero-links{margin:20px 0 0;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
 .hero-links a{min-height:52px;padding:12px 10px}
 @media(max-width:760px){.hero-links{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* ==== Hero minimal layer ==== */
+.hero-copy .hero-actions{margin:22px 0 0}
+.hero h1.hero-h1{margin:10px 0 4px}
