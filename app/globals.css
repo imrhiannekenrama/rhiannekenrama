@@ -102,3 +102,23 @@ body{background-image:radial-gradient(#ffffff0d 1px,transparent 1px);background-
 .mind-garden::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:1;background-image:radial-gradient(circle 3px at 12% 22%,#7fffd466,transparent 70%),radial-gradient(circle 2px at 78% 18%,#9d4edd88,transparent 70%),radial-gradient(circle 2.5px at 62% 64%,#7fffd477,transparent 70%),radial-gradient(circle 2px at 28% 78%,#d8bfd866,transparent 70%)}
 .mind-garden .container{position:relative;z-index:2}
 .mind-garden .tag{background:#1d1b3c;border-color:#4d3f85;color:#c3b3fb}
+
+/* ==== World scene backgrounds (zip: Rhianne-Ken-S-Rama-Website-Backgrounds) ==== */
+.scene{background:#070b18;background-size:cover;background-position:center 30%;background-repeat:no-repeat;background-image:linear-gradient(180deg,#0a0b1ad9 0%,#0d1029c9 45%,#070b18e8 100%)}
+.scene-books{background-image:linear-gradient(180deg,#0a0b1ad9 0%,#0d1029c9 45%,#070b18e8 100%),url('/backgrounds/Books.webp')}
+.scene-research{background-image:linear-gradient(180deg,#0a0b1ad9 0%,#0d1029c9 45%,#070b18e8 100%),url('/backgrounds/Research.webp')}
+.scene-learning{background-image:linear-gradient(180deg,#0a0b1ad9 0%,#0d1029c9 45%,#070b18e8 100%),url('/backgrounds/Courses.webp')}
+.scene-projects{background-image:linear-gradient(180deg,#0a0b1ad9 0%,#0d1029c9 45%,#070b18e8 100%),url('/backgrounds/Projects.webp')}
+.scene-journal{background-image:linear-gradient(180deg,#0a0b1ad9 0%,#0d1029c9 45%,#070b18e8 100%),url('/backgrounds/Life-Journals.webp')}
+.scene-achievements{background-image:linear-gradient(180deg,#0a0b1ad9 0%,#0d1029c9 45%,#070b18e8 100%),url('/backgrounds/Achievements.webp')}
+.scene-about{background-image:linear-gradient(180deg,#0a0b1ad9 0%,#0d1029c9 45%,#070b18e8 100%),url('/backgrounds/About.webp')}
+.scene-contact{background-image:linear-gradient(180deg,#0a0b1ad9 0%,#0d1029c9 45%,#070b18e8 100%),url('/backgrounds/Contact.webp')}
+.scene-explore{background-image:linear-gradient(180deg,#0a0b1ad9 0%,#0d1029c9 45%,#070b18e8 100%),url('/backgrounds/Explore.webp')}
+@media(min-width:950px){.scene{background-attachment:fixed}}
+.scene .page-head,.mind-garden .page-head{background:transparent;border-bottom-color:#2a235080}
+.scene .page-head h1,.mind-garden .page-head h1{background:linear-gradient(105deg,#f2f0ff 20%,#c4b5ff 70%,#7fffd4 100%);color:transparent;background-clip:text}
+.scene .card,.mind-garden .card{background:linear-gradient(147deg,#151f3cc2,#0e172ed9);backdrop-filter:blur(5px);border-color:#37345e99}
+.scene .card:hover,.mind-garden .card:hover{border-color:#8a6fe0}
+.scene .container,.mind-garden .container{position:relative;z-index:2}
+.scene .tag,.mind-garden .tag{background:#1d1b3c;border-color:#4d3f85;color:#c3b3fb}
+.scene .reading{background:#eeeae3e6;backdrop-filter:blur(6px)}
