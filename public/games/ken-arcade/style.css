@@ -4,3 +4,47 @@
 
 .question-text{font-size:clamp(20px,3vw,29px);font-weight:850;max-width:700px;line-height:1.3;letter-spacing:-.35px}
 @media(max-width:650px){.categories{flex-wrap:nowrap;overflow-x:auto;padding-bottom:10px;scrollbar-width:thin}.category{flex-shrink:0;white-space:nowrap}.hero-stats{gap:17px}.hero{min-height:260px}}
+/* --- Mobile layer: phone + tablet layout (added 2026-10-25) --- */
+@media(max-width:900px){
+ .topbar{padding:12px 16px;gap:10px}
+ .brand{font-size:17px}
+ .brand-icon{width:40px;height:40px;font-size:22px;border-radius:11px}
+ .top-pill{display:none}
+ .layout{grid-template-columns:1fr;gap:14px;padding:14px 14px 50px}
+ .sidebar{border-right:0;padding:0 0 4px}
+ .sidebar-heading{padding:8px 4px 6px}
+ .side-note{margin-top:12px;padding:12px}
+ .categories{flex-direction:row;flex-wrap:nowrap;overflow-x:auto;gap:4px;padding-bottom:8px;scrollbar-width:thin}
+ .category{white-space:nowrap;padding:10px 12px;background:#1a2a47;border:1px solid #2b3c5c}
+ .hero{flex-direction:column;padding:22px 18px;min-height:0;gap:18px}
+ .hero p:not(.eyebrow){max-width:100%}
+ .hero h1{font-size:32px;letter-spacing:-.8px}
+ .mascot{flex:0 0 auto;transform:none;justify-items:start}
+ .ken-face{width:104px;height:104px;font-size:58px;border-radius:22px}
+ .ken-tag{padding:5px 14px}
+ .browse-tools{margin:16px 0 14px;flex-direction:column;gap:8px}
+ .search-box input,select{font-size:16px}
+ .game-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+ .game-tile{padding:13px;min-height:0;border-radius:12px}
+ .tile-emoji{font-size:24px;margin-bottom:7px}
+ .game-tile strong{font-size:.86rem}
+ .game-tile small{font-size:.66rem;margin-top:5px}
+ .play-layout{padding:16px 14px 50px}
+ .play-top{flex-wrap:wrap;gap:8px}
+ .play-header{gap:12px;margin:18px 0}
+ .game-icon{width:56px;height:56px;font-size:30px;border-radius:14px}
+ .play-header h1{font-size:21px}
+ .play-header p{font-size:.8rem}
+ .play-body{grid-template-columns:1fr;gap:14px}
+ .game-panel{padding:14px;border-radius:14px}
+ .ken-panel{padding:16px}
+ .question-text{font-size:20px}
+ body{overflow-x:clip}
+}
+@media(max-width:420px){
+ .brand{font-size:15px}
+ .brand small{display:none}
+ .hero-stats{gap:12px;font-size:11px}
+ .hero-stats b{font-size:18px}
+ .small-btn,.back-btn{padding:9px 12px;font-size:.8rem}
+}
