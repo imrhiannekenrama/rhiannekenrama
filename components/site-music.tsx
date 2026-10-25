@@ -16,6 +16,7 @@ const TRACKS={
   journal:{file:'meditation-impromptu-01.mp3',label:'Meditation Impromptu 01'},
   explore:{file:'deep-haze.mp3',label:'Deep Haze'},
   bible:{file:'meditation-impromptu-01.mp3',label:'Meditation Impromptu 01'},
+  games:{file:'carefree.mp3',label:'Carefree'},
   fallback:{file:'floating-cities.mp3',label:'Floating Cities'},
 } as const;
 type TrackKey=keyof typeof TRACKS;
@@ -29,6 +30,7 @@ function trackFor(path:string):TrackKey|null{
   if(path.startsWith('/books'))return 'books';
   if(path.startsWith('/research'))return 'research';
   if(path.startsWith('/bible'))return 'bible';
+  if(path.startsWith('/games'))return 'games';
   if(path.startsWith('/memories'))return 'memories';
   if(path.startsWith('/journal'))return 'journal';
   if(path.startsWith('/explore'))return 'explore';

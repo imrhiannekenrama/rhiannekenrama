@@ -1,13 +1,13 @@
 'use client';
 import {useState} from 'react';
 import Link from 'next/link';
-import {ArrowUpRight,RotateCcw,BookOpen,FlaskConical,Camera,GraduationCap,NotebookPen,Rocket,BrainCircuit,Award,Cross} from 'lucide-react';
+import {ArrowUpRight,RotateCcw,BookOpen,FlaskConical,Camera,GraduationCap,NotebookPen,Rocket,BrainCircuit,Award,Cross,Gamepad2} from 'lucide-react';
 import {sections} from '@/lib/types';
-const iconMap:Record<string,any>={BookOpen,FlaskConical,Camera,GraduationCap,NotebookPen,Rocket,BrainCircuit,Award,Cross};
-const desc:Record<string,string>={book:'Stories and guides published on Amazon and Gumroad.',research:'Mathematics research from Leyte Normal University.',album:'Photographs of family, school, and milestones.',course:'Courses, studies, and the learning journey.',journal:'Updates and reflections along the way.',project:'Web platforms and data systems I built.',idea:'Ideas worth growing.',achievement:'Chess, competitions, and milestones.',bible:'Scripture and stories of hope and miracles.'};
+const iconMap:Record<string,any>={BookOpen,FlaskConical,Camera,GraduationCap,NotebookPen,Rocket,BrainCircuit,Award,Cross,Gamepad2};
+const desc:Record<string,string>={book:'Stories and guides published on Amazon and Gumroad.',research:'Mathematics research from Leyte Normal University.',album:'Photographs of family, school, and milestones.',course:'Courses, studies, and the learning journey.',journal:'Updates and reflections along the way.',project:'Web platforms and data systems I built.',idea:'Ideas worth growing.',achievement:'Chess, competitions, and milestones.',bible:'Scripture and stories of hope and miracles.',games:'Buhay Pinoy and the games of the arcade.'};
 const CX=380,CY=280;
 const inner=[315,225,135,45].map(a=>[CX+168*Math.cos(a*Math.PI/180),CY-118*Math.sin(a*Math.PI/180)]);
-const outer=[268,182,90,0,326].map(a=>[CX+262*Math.cos(a*Math.PI/180),CY-186*Math.sin(a*Math.PI/180)]);
+const outer=[268,182,90,0,326,218].map(a=>[CX+262*Math.cos(a*Math.PI/180),CY-186*Math.sin(a*Math.PI/180)]);
 const pts=[...inner,...outer].map(([x,y])=>[Math.round(x*10)/10,Math.round(y*10)/10]);
 const stars:any[]=[[72,52],[151,148],[648,72],[703,178],[92,428],[668,470],[536,38],[204,88],[592,432],[355,124],[58,240],[712,300],[283,508],[477,518]].map(([x,y],i)=><circle key={i} className={i%4===0?'star twinkle':'star'} cx={x} cy={y} r={i%3===0?1.6:1.1} opacity={.5}/>);
 

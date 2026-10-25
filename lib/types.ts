@@ -19,6 +19,7 @@ export const sections = [
  {type:'idea',label:'Mind Garden',icon:'BrainCircuit',href:'/ideas',color:'#91a4ff'},
  {type:'achievement',label:'Milestones',icon:'Award',href:'/achievements',color:'#fed28c'},
  {type:'bible',label:'The Word',icon:'Cross',href:'/bible',color:'#f2e2b3'},
+ {type:'games',label:'Games',icon:'Gamepad2',href:'/games',color:'#7ee0c9'},
 ] as const;
 export const routeTypes:Record<string,EntryType> = {books:'book',research:'research',memories:'album',learning:'course',journal:'journal',projects:'project',ideas:'idea',achievements:'achievement',pages:'page'};
 export function entryHref(e:Pick<Entry,'type'|'slug'>){ const part=Object.keys(routeTypes).find(k=>routeTypes[k]===e.type)||'pages';return `/${part}/${encodeURIComponent(e.slug)}`; }

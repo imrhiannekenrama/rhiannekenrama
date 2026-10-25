@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import {ArrowRight,ArrowUpRight,Sparkles,BookOpen,Camera,GraduationCap,FileText,Briefcase,Cross} from 'lucide-react';
+import {ArrowRight,ArrowUpRight,Sparkles,BookOpen,Camera,GraduationCap,FileText,Briefcase,Cross,Gamepad2} from 'lucide-react';
 import {publicEntries,settings} from '@/lib/data';
 import {Worlds,EntryGrid} from '@/components/public-ui';
 import {ProfilePortrait} from '@/components/profile-portrait';
@@ -23,6 +23,7 @@ export default async function Home(){
         <Link href="/learning"><GraduationCap size={20}/> Courses <ArrowUpRight size={13}/></Link>
         <Link href="/projects"><Briefcase size={20}/> Projects <ArrowUpRight size={13}/></Link>
         <Link href="/journal"><Sparkles size={20}/> Life Updates <ArrowUpRight size={13}/></Link>
+        <Link href="/games"><Gamepad2 size={20}/> Games <ArrowUpRight size={13}/></Link>
       </div>
     </div>
     <div className="hero-portrait-area"><ProfilePortrait mediaId={s.portrait_media_id} displayName={s.site_name}/></div>

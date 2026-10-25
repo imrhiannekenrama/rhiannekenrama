@@ -1,0 +1,236 @@
+{
+  "holidays": [
+    {
+      "name": "New Year celebrations",
+      "month": 1,
+      "tags": [
+        "family",
+        "community"
+      ]
+    },
+    {
+      "name": "Araw ng Kagitingan",
+      "month": 4,
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "name": "Labor Day",
+      "month": 5,
+      "tags": [
+        "civic"
+      ]
+    },
+    {
+      "name": "Independence Day",
+      "month": 6,
+      "tags": [
+        "history",
+        "civic"
+      ]
+    },
+    {
+      "name": "National Heroes Day",
+      "month": 8,
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "name": "Undas / cemetery visits",
+      "month": 11,
+      "tags": [
+        "family",
+        "remembrance"
+      ]
+    },
+    {
+      "name": "Christmas season",
+      "month": 12,
+      "tags": [
+        "family",
+        "faith-optional"
+      ]
+    },
+    {
+      "name": "Year-end reunions",
+      "month": 12,
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "name": "Eid al-Fitr",
+      "month": "lunar",
+      "tags": [
+        "faith-optional",
+        "community"
+      ]
+    },
+    {
+      "name": "Eid al-Adha",
+      "month": "lunar",
+      "tags": [
+        "faith-optional",
+        "community"
+      ]
+    }
+  ],
+  "celebrations": [
+    {
+      "name": "Sinulog",
+      "regionId": "r7",
+      "place": "Cebu City",
+      "theme": "devotional dance and street celebrations"
+    },
+    {
+      "name": "Ati-Atihan",
+      "regionId": "r6",
+      "place": "Kalibo",
+      "theme": "music, dance and community festivities"
+    },
+    {
+      "name": "Dinagyang",
+      "regionId": "r6",
+      "place": "Iloilo City",
+      "theme": "drumming and performances"
+    },
+    {
+      "name": "MassKara",
+      "regionId": "nir",
+      "place": "Bacolod",
+      "theme": "masks, performances and city celebrations"
+    },
+    {
+      "name": "Panagbenga",
+      "regionId": "car",
+      "place": "Baguio",
+      "theme": "flower floats and blooms"
+    },
+    {
+      "name": "Kadayawan",
+      "regionId": "r11",
+      "place": "Davao City",
+      "theme": "harvest and cultural celebrations"
+    },
+    {
+      "name": "Pahiyas",
+      "regionId": "r4a",
+      "place": "Lucban, Quezon",
+      "theme": "colorful decorated homes and harvest"
+    },
+    {
+      "name": "Peñafrancia",
+      "regionId": "r5",
+      "place": "Naga",
+      "theme": "religious and community celebrations"
+    },
+    {
+      "name": "Pintados-Kasadyaan",
+      "regionId": "r8",
+      "place": "Tacloban",
+      "theme": "dance, history and local celebration"
+    },
+    {
+      "name": "Higalaay",
+      "regionId": "r10",
+      "place": "Cagayan de Oro",
+      "theme": "friendship and community events"
+    },
+    {
+      "name": "Sangyaw",
+      "regionId": "r8",
+      "place": "Tacloban",
+      "theme": "street dancing and local pride"
+    },
+    {
+      "name": "Sandugo",
+      "regionId": "r7",
+      "place": "Tagbilaran",
+      "theme": "historical reenactment and cultural program"
+    },
+    {
+      "name": "Kaamulan",
+      "regionId": "r10",
+      "place": "Malaybalay",
+      "theme": "Bukidnon cultural gatherings"
+    },
+    {
+      "name": "T'nalak Festival",
+      "regionId": "r12",
+      "place": "Koronadal",
+      "theme": "South Cotabato heritage and arts"
+    },
+    {
+      "name": "Bangus Festival",
+      "regionId": "r1",
+      "place": "Dagupan",
+      "theme": "fishing and food heritage"
+    },
+    {
+      "name": "Giant Lantern Festival",
+      "regionId": "r3",
+      "place": "San Fernando, Pampanga",
+      "theme": "craftsmanship and lantern artistry"
+    },
+    {
+      "name": "Moriones",
+      "regionId": "mimaropa",
+      "place": "Marinduque",
+      "theme": "community street performances during Holy Week"
+    },
+    {
+      "name": "Lanzones Festival",
+      "regionId": "r10",
+      "place": "Camiguin",
+      "theme": "fruit harvest and cultural events"
+    },
+    {
+      "name": "Manggahan Festival",
+      "regionId": "r6",
+      "place": "Guimaras",
+      "theme": "mango harvest"
+    },
+    {
+      "name": "Sagingan Festival",
+      "regionId": "r10",
+      "place": "Tubod, Lanao del Norte",
+      "theme": "agriculture and local creativity"
+    }
+  ],
+  "everyday": [
+    "bayanihan",
+    "pakikisama",
+    "pasalubong",
+    "mano po (in some families)",
+    "merienda",
+    "fiesta",
+    "barangay assembly",
+    "palengke",
+    "sari-sari store",
+    "community basketball",
+    "videoke",
+    "jeepney",
+    "tricycle",
+    "pandesal",
+    "taho",
+    "sinigang",
+    "adobo",
+    "kinilaw",
+    "tinola",
+    "laing",
+    "piaya",
+    "pastil",
+    "puto",
+    "halo-halo",
+    "boodle fights (communal meals)",
+    "family reunions",
+    "provincial homecoming",
+    "local cooperatives",
+    "pasukan",
+    "graduation rites",
+    "balikbayan boxes"
+  ],
+  "inclusionNote": "Filipino cultures are diverse. Customs, beliefs, languages and celebrations are optional experiences; no character is assigned a religion or stereotype by birthplace."
+}

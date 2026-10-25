@@ -1,0 +1,178 @@
+[
+  {
+    "id": "sari_sari",
+    "name": "Sari-sari store",
+    "startupCostPHP": 22000,
+    "baselineAnnualRevenuePHP": 115000,
+    "expectedMargin": 0.1,
+    "note": "Fictional annual game economics; volatile in game."
+  },
+  {
+    "id": "carinderia",
+    "name": "Carinderia",
+    "startupCostPHP": 75000,
+    "baselineAnnualRevenuePHP": 240000,
+    "expectedMargin": 0.16,
+    "note": "Fictional annual game economics; volatile in game."
+  },
+  {
+    "id": "milktea",
+    "name": "Milk tea kiosk",
+    "startupCostPHP": 115000,
+    "baselineAnnualRevenuePHP": 340000,
+    "expectedMargin": 0.1,
+    "note": "Fictional annual game economics; volatile in game."
+  },
+  {
+    "id": "laundry",
+    "name": "Laundry shop",
+    "startupCostPHP": 195000,
+    "baselineAnnualRevenuePHP": 470000,
+    "expectedMargin": 0.13,
+    "note": "Fictional annual game economics; volatile in game."
+  },
+  {
+    "id": "internet_cafe",
+    "name": "Printing and internet cafe",
+    "startupCostPHP": 125000,
+    "baselineAnnualRevenuePHP": 275000,
+    "expectedMargin": 0.11,
+    "note": "Fictional annual game economics; volatile in game."
+  },
+  {
+    "id": "water_refilling",
+    "name": "Water refilling station",
+    "startupCostPHP": 285000,
+    "baselineAnnualRevenuePHP": 640000,
+    "expectedMargin": 0.15,
+    "note": "Fictional annual game economics; volatile in game."
+  },
+  {
+    "id": "food_cart",
+    "name": "Street food cart",
+    "startupCostPHP": 25000,
+    "baselineAnnualRevenuePHP": 185000,
+    "expectedMargin": 0.13,
+    "note": "Fictional annual game economics; volatile in game."
+  },
+  {
+    "id": "pandesalan",
+    "name": "Neighborhood bakery",
+    "startupCostPHP": 125000,
+    "baselineAnnualRevenuePHP": 420000,
+    "expectedMargin": 0.12,
+    "note": "Fictional annual game economics; volatile in game."
+  },
+  {
+    "id": "motorcycle_repair",
+    "name": "Motorcycle repair shop",
+    "startupCostPHP": 90000,
+    "baselineAnnualRevenuePHP": 370000,
+    "expectedMargin": 0.16,
+    "note": "Fictional annual game economics; volatile in game."
+  },
+  {
+    "id": "online_store",
+    "name": "Online selling business",
+    "startupCostPHP": 10000,
+    "baselineAnnualRevenuePHP": 180000,
+    "expectedMargin": 0.08,
+    "note": "Fictional annual game economics; volatile in game."
+  },
+  {
+    "id": "small_farm",
+    "name": "Vegetable and rice farm",
+    "startupCostPHP": 70000,
+    "baselineAnnualRevenuePHP": 280000,
+    "expectedMargin": 0.09,
+    "note": "Fictional annual game economics; volatile in game."
+  },
+  {
+    "id": "fish_stall",
+    "name": "Fresh seafood stall",
+    "startupCostPHP": 60000,
+    "baselineAnnualRevenuePHP": 250000,
+    "expectedMargin": 0.12,
+    "note": "Fictional annual game economics; volatile in game."
+  },
+  {
+    "id": "tricycle_unit",
+    "name": "Tricycle transport operation",
+    "startupCostPHP": 115000,
+    "baselineAnnualRevenuePHP": 275000,
+    "expectedMargin": 0.09,
+    "note": "Fictional annual game economics; volatile in game."
+  },
+  {
+    "id": "boarding_house",
+    "name": "Small boarding house",
+    "startupCostPHP": 970000,
+    "baselineAnnualRevenuePHP": 340000,
+    "expectedMargin": 0.14,
+    "note": "Fictional annual game economics; volatile in game."
+  },
+  {
+    "id": "photography_studio",
+    "name": "Photography studio",
+    "startupCostPHP": 145000,
+    "baselineAnnualRevenuePHP": 365000,
+    "expectedMargin": 0.14,
+    "note": "Fictional annual game economics; volatile in game."
+  },
+  {
+    "id": "flower_shop",
+    "name": "Flower shop",
+    "startupCostPHP": 85000,
+    "baselineAnnualRevenuePHP": 310000,
+    "expectedMargin": 0.11,
+    "note": "Fictional annual game economics; volatile in game."
+  },
+  {
+    "id": "mobile_repair",
+    "name": "Phone repair kiosk",
+    "startupCostPHP": 62000,
+    "baselineAnnualRevenuePHP": 275000,
+    "expectedMargin": 0.16,
+    "note": "Fictional annual game economics; volatile in game."
+  },
+  {
+    "id": "pasalubong_shop",
+    "name": "Pasalubong store",
+    "startupCostPHP": 135000,
+    "baselineAnnualRevenuePHP": 325000,
+    "expectedMargin": 0.11,
+    "note": "Fictional annual game economics; volatile in game."
+  },
+  {
+    "id": "event_catering",
+    "name": "Event catering service",
+    "startupCostPHP": 200000,
+    "baselineAnnualRevenuePHP": 525000,
+    "expectedMargin": 0.13,
+    "note": "Fictional annual game economics; volatile in game."
+  },
+  {
+    "id": "tailoring",
+    "name": "Tailoring shop",
+    "startupCostPHP": 75000,
+    "baselineAnnualRevenuePHP": 235000,
+    "expectedMargin": 0.16,
+    "note": "Fictional annual game economics; volatile in game."
+  },
+  {
+    "id": "resort_homestay",
+    "name": "Island homestay",
+    "startupCostPHP": 750000,
+    "baselineAnnualRevenuePHP": 460000,
+    "expectedMargin": 0.12,
+    "note": "Fictional annual game economics; volatile in game."
+  },
+  {
+    "id": "farmers_market",
+    "name": "Weekend farmers market stall",
+    "startupCostPHP": 30000,
+    "baselineAnnualRevenuePHP": 195000,
+    "expectedMargin": 0.12,
+    "note": "Fictional annual game economics; volatile in game."
+  }
+]

@@ -1,0 +1,722 @@
+[
+  {
+    "id": "legal.ethics.unpaid_shop_item",
+    "title": "Unpaid shop item",
+    "text": "An acquaintance jokes about walking out of a shop without paying.",
+    "category": "ethics",
+    "minAge": 18,
+    "maxAge": 78,
+    "weight": 3,
+    "tags": [
+      "ethics",
+      "legal-risk",
+      "crime"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Pay properly and discourage the idea",
+        "outcome": "You act fairly and protect the trust of others.",
+        "effects": {
+          "stats.reputation": 5,
+          "stats.empathy": 3,
+          "legal.heat": -2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Go along with the dare",
+        "outcome": "Your risky approach draws attention and consequences.",
+        "effects": {
+          "stats.confidence": 3,
+          "stats.reputation": -6,
+          "legal.heat": 5
+        },
+        "chance": {
+          "probability": 0.3,
+          "success": {
+            "outcome": "The act was discovered. You face legal trouble and possible detention.",
+            "effects": {
+              "stats.reputation": -15,
+              "legal.heat": 18
+            },
+            "action": {
+              "type": "jail",
+              "years": 1
+            }
+          },
+          "failure": {
+            "outcome": "The action appears to go unnoticed for now, but the risk remains.",
+            "effects": {
+              "stats.reputation": -3,
+              "legal.heat": 7
+            }
+          }
+        },
+        "action": {
+          "type": "crime",
+          "severity": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Walk away",
+        "outcome": "You step away from a situation that may become worse.",
+        "effects": {
+          "stats.stress": -2,
+          "legal.heat": -1
+        }
+      }
+    ],
+    "sourceType": "legal"
+  },
+  {
+    "id": "legal.ethics.online_account_intrusion",
+    "title": "Online account intrusion",
+    "text": "A friend asks you to access an account that does not belong to you.",
+    "category": "ethics",
+    "minAge": 18,
+    "maxAge": 78,
+    "weight": 3,
+    "tags": [
+      "ethics",
+      "legal-risk",
+      "crime"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Refuse and encourage responsible conduct",
+        "outcome": "You act fairly and protect the trust of others.",
+        "effects": {
+          "stats.reputation": 5,
+          "stats.empathy": 3,
+          "legal.heat": -2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Try the unauthorized access",
+        "outcome": "Your risky approach draws attention and consequences.",
+        "effects": {
+          "stats.confidence": 3,
+          "stats.reputation": -6,
+          "legal.heat": 5
+        },
+        "chance": {
+          "probability": 0.3,
+          "success": {
+            "outcome": "The act was discovered. You face legal trouble and possible detention.",
+            "effects": {
+              "stats.reputation": -15,
+              "legal.heat": 18
+            },
+            "action": {
+              "type": "jail",
+              "years": 1
+            }
+          },
+          "failure": {
+            "outcome": "The action appears to go unnoticed for now, but the risk remains.",
+            "effects": {
+              "stats.reputation": -3,
+              "legal.heat": 7
+            }
+          }
+        },
+        "action": {
+          "type": "crime",
+          "severity": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Stop discussing the request",
+        "outcome": "You step away from a situation that may become worse.",
+        "effects": {
+          "stats.stress": -2,
+          "legal.heat": -1
+        }
+      }
+    ],
+    "sourceType": "legal"
+  },
+  {
+    "id": "legal.ethics.illegal_street_race",
+    "title": "Illegal street race",
+    "text": "A group invites you to join a dangerous unsanctioned road race.",
+    "category": "ethics",
+    "minAge": 18,
+    "maxAge": 78,
+    "weight": 3,
+    "tags": [
+      "ethics",
+      "legal-risk",
+      "crime"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Decline and suggest a safe venue",
+        "outcome": "You act fairly and protect the trust of others.",
+        "effects": {
+          "stats.reputation": 5,
+          "stats.empathy": 3,
+          "legal.heat": -2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Take part in the race",
+        "outcome": "Your risky approach draws attention and consequences.",
+        "effects": {
+          "stats.confidence": 3,
+          "stats.reputation": -6,
+          "legal.heat": 5
+        },
+        "chance": {
+          "probability": 0.3,
+          "success": {
+            "outcome": "The act was discovered. You face legal trouble and possible detention.",
+            "effects": {
+              "stats.reputation": -15,
+              "legal.heat": 18
+            },
+            "action": {
+              "type": "jail",
+              "years": 1
+            }
+          },
+          "failure": {
+            "outcome": "The action appears to go unnoticed for now, but the risk remains.",
+            "effects": {
+              "stats.reputation": -3,
+              "legal.heat": 7
+            }
+          }
+        },
+        "action": {
+          "type": "crime",
+          "severity": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Leave the group",
+        "outcome": "You step away from a situation that may become worse.",
+        "effects": {
+          "stats.stress": -2,
+          "legal.heat": -1
+        }
+      }
+    ],
+    "sourceType": "legal"
+  },
+  {
+    "id": "legal.ethics.fake_receipt_scheme",
+    "title": "Fake receipt scheme",
+    "text": "Someone proposes submitting a false receipt to obtain a reimbursement.",
+    "category": "ethics",
+    "minAge": 18,
+    "maxAge": 78,
+    "weight": 3,
+    "tags": [
+      "ethics",
+      "legal-risk",
+      "crime"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Submit accurate documents",
+        "outcome": "You act fairly and protect the trust of others.",
+        "effects": {
+          "stats.reputation": 5,
+          "stats.empathy": 3,
+          "legal.heat": -2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Accept the proposal",
+        "outcome": "Your risky approach draws attention and consequences.",
+        "effects": {
+          "stats.confidence": 3,
+          "stats.reputation": -6,
+          "legal.heat": 5
+        },
+        "chance": {
+          "probability": 0.3,
+          "success": {
+            "outcome": "The act was discovered. You face legal trouble and possible detention.",
+            "effects": {
+              "stats.reputation": -15,
+              "legal.heat": 18
+            },
+            "action": {
+              "type": "jail",
+              "years": 1
+            }
+          },
+          "failure": {
+            "outcome": "The action appears to go unnoticed for now, but the risk remains.",
+            "effects": {
+              "stats.reputation": -3,
+              "legal.heat": 7
+            }
+          }
+        },
+        "action": {
+          "type": "crime",
+          "severity": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Refuse to get involved",
+        "outcome": "You step away from a situation that may become worse.",
+        "effects": {
+          "stats.stress": -2,
+          "legal.heat": -1
+        }
+      }
+    ],
+    "sourceType": "legal"
+  },
+  {
+    "id": "legal.ethics.property_damage_dare",
+    "title": "Property damage dare",
+    "text": "A group wants to damage roadside property for a prank video.",
+    "category": "ethics",
+    "minAge": 18,
+    "maxAge": 78,
+    "weight": 3,
+    "tags": [
+      "ethics",
+      "legal-risk",
+      "crime"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Stop the plan and walk away",
+        "outcome": "You act fairly and protect the trust of others.",
+        "effects": {
+          "stats.reputation": 5,
+          "stats.empathy": 3,
+          "legal.heat": -2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Join the destructive prank",
+        "outcome": "Your risky approach draws attention and consequences.",
+        "effects": {
+          "stats.confidence": 3,
+          "stats.reputation": -6,
+          "legal.heat": 5
+        },
+        "chance": {
+          "probability": 0.3,
+          "success": {
+            "outcome": "The act was discovered. You face legal trouble and possible detention.",
+            "effects": {
+              "stats.reputation": -15,
+              "legal.heat": 18
+            },
+            "action": {
+              "type": "jail",
+              "years": 1
+            }
+          },
+          "failure": {
+            "outcome": "The action appears to go unnoticed for now, but the risk remains.",
+            "effects": {
+              "stats.reputation": -3,
+              "legal.heat": 7
+            }
+          }
+        },
+        "action": {
+          "type": "crime",
+          "severity": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Decline without arguing",
+        "outcome": "You step away from a situation that may become worse.",
+        "effects": {
+          "stats.stress": -2,
+          "legal.heat": -1
+        }
+      }
+    ],
+    "sourceType": "legal"
+  },
+  {
+    "id": "legal.ethics.bribery_request",
+    "title": "Bribery request",
+    "text": "Someone suggests paying a public official privately to speed up a process.",
+    "category": "ethics",
+    "minAge": 18,
+    "maxAge": 78,
+    "weight": 3,
+    "tags": [
+      "ethics",
+      "legal-risk",
+      "crime"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Use lawful channels",
+        "outcome": "You act fairly and protect the trust of others.",
+        "effects": {
+          "stats.reputation": 5,
+          "stats.empathy": 3,
+          "legal.heat": -2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Attempt the payment",
+        "outcome": "Your risky approach draws attention and consequences.",
+        "effects": {
+          "stats.confidence": 3,
+          "stats.reputation": -6,
+          "legal.heat": 5
+        },
+        "chance": {
+          "probability": 0.3,
+          "success": {
+            "outcome": "The act was discovered. You face legal trouble and possible detention.",
+            "effects": {
+              "stats.reputation": -15,
+              "legal.heat": 18
+            },
+            "action": {
+              "type": "jail",
+              "years": 1
+            }
+          },
+          "failure": {
+            "outcome": "The action appears to go unnoticed for now, but the risk remains.",
+            "effects": {
+              "stats.reputation": -3,
+              "legal.heat": 7
+            }
+          }
+        },
+        "action": {
+          "type": "crime",
+          "severity": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Ask for formal requirements",
+        "outcome": "You step away from a situation that may become worse.",
+        "effects": {
+          "stats.stress": -2,
+          "legal.heat": -1
+        }
+      }
+    ],
+    "sourceType": "legal"
+  },
+  {
+    "id": "legal.ethics.smuggling_invitation",
+    "title": "Smuggling invitation",
+    "text": "A stranger promises fast money for carrying an undeclared package.",
+    "category": "ethics",
+    "minAge": 18,
+    "maxAge": 78,
+    "weight": 3,
+    "tags": [
+      "ethics",
+      "legal-risk",
+      "crime"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Refuse and prioritize safety",
+        "outcome": "You act fairly and protect the trust of others.",
+        "effects": {
+          "stats.reputation": 5,
+          "stats.empathy": 3,
+          "legal.heat": -2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Agree to carry the package",
+        "outcome": "Your risky approach draws attention and consequences.",
+        "effects": {
+          "stats.confidence": 3,
+          "stats.reputation": -6,
+          "legal.heat": 5
+        },
+        "chance": {
+          "probability": 0.3,
+          "success": {
+            "outcome": "The act was discovered. You face legal trouble and possible detention.",
+            "effects": {
+              "stats.reputation": -15,
+              "legal.heat": 18
+            },
+            "action": {
+              "type": "jail",
+              "years": 1
+            }
+          },
+          "failure": {
+            "outcome": "The action appears to go unnoticed for now, but the risk remains.",
+            "effects": {
+              "stats.reputation": -3,
+              "legal.heat": 7
+            }
+          }
+        },
+        "action": {
+          "type": "crime",
+          "severity": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Leave immediately",
+        "outcome": "You step away from a situation that may become worse.",
+        "effects": {
+          "stats.stress": -2,
+          "legal.heat": -1
+        }
+      }
+    ],
+    "sourceType": "legal"
+  },
+  {
+    "id": "legal.ethics.forgery_offer",
+    "title": "Forgery offer",
+    "text": "Someone offers to alter an official certificate for a fee.",
+    "category": "ethics",
+    "minAge": 18,
+    "maxAge": 78,
+    "weight": 3,
+    "tags": [
+      "ethics",
+      "legal-risk",
+      "crime"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Seek an authentic replacement",
+        "outcome": "You act fairly and protect the trust of others.",
+        "effects": {
+          "stats.reputation": 5,
+          "stats.empathy": 3,
+          "legal.heat": -2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Pay for the alteration",
+        "outcome": "Your risky approach draws attention and consequences.",
+        "effects": {
+          "stats.confidence": 3,
+          "stats.reputation": -6,
+          "legal.heat": 5
+        },
+        "chance": {
+          "probability": 0.3,
+          "success": {
+            "outcome": "The act was discovered. You face legal trouble and possible detention.",
+            "effects": {
+              "stats.reputation": -15,
+              "legal.heat": 18
+            },
+            "action": {
+              "type": "jail",
+              "years": 1
+            }
+          },
+          "failure": {
+            "outcome": "The action appears to go unnoticed for now, but the risk remains.",
+            "effects": {
+              "stats.reputation": -3,
+              "legal.heat": 7
+            }
+          }
+        },
+        "action": {
+          "type": "crime",
+          "severity": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Ignore the offer",
+        "outcome": "You step away from a situation that may become worse.",
+        "effects": {
+          "stats.stress": -2,
+          "legal.heat": -1
+        }
+      }
+    ],
+    "sourceType": "legal"
+  },
+  {
+    "id": "legal.ethics.stolen_marketplace_goods",
+    "title": "Stolen marketplace goods",
+    "text": "A seller admits that an item was stolen from another person.",
+    "category": "ethics",
+    "minAge": 18,
+    "maxAge": 78,
+    "weight": 3,
+    "tags": [
+      "ethics",
+      "legal-risk",
+      "crime"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Avoid and consider reporting",
+        "outcome": "You act fairly and protect the trust of others.",
+        "effects": {
+          "stats.reputation": 5,
+          "stats.empathy": 3,
+          "legal.heat": -2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Purchase the item",
+        "outcome": "Your risky approach draws attention and consequences.",
+        "effects": {
+          "stats.confidence": 3,
+          "stats.reputation": -6,
+          "legal.heat": 5
+        },
+        "chance": {
+          "probability": 0.3,
+          "success": {
+            "outcome": "The act was discovered. You face legal trouble and possible detention.",
+            "effects": {
+              "stats.reputation": -15,
+              "legal.heat": 18
+            },
+            "action": {
+              "type": "jail",
+              "years": 1
+            }
+          },
+          "failure": {
+            "outcome": "The action appears to go unnoticed for now, but the risk remains.",
+            "effects": {
+              "stats.reputation": -3,
+              "legal.heat": 7
+            }
+          }
+        },
+        "action": {
+          "type": "crime",
+          "severity": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Walk away",
+        "outcome": "You step away from a situation that may become worse.",
+        "effects": {
+          "stats.stress": -2,
+          "legal.heat": -1
+        }
+      }
+    ],
+    "sourceType": "legal"
+  },
+  {
+    "id": "legal.ethics.insurance_fraud_suggestion",
+    "title": "Insurance fraud suggestion",
+    "text": "An acquaintance suggests inventing losses for a claim.",
+    "category": "ethics",
+    "minAge": 18,
+    "maxAge": 78,
+    "weight": 3,
+    "tags": [
+      "ethics",
+      "legal-risk",
+      "crime"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "File truthful information",
+        "outcome": "You act fairly and protect the trust of others.",
+        "effects": {
+          "stats.reputation": 5,
+          "stats.empathy": 3,
+          "legal.heat": -2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Follow the scheme",
+        "outcome": "Your risky approach draws attention and consequences.",
+        "effects": {
+          "stats.confidence": 3,
+          "stats.reputation": -6,
+          "legal.heat": 5
+        },
+        "chance": {
+          "probability": 0.3,
+          "success": {
+            "outcome": "The act was discovered. You face legal trouble and possible detention.",
+            "effects": {
+              "stats.reputation": -15,
+              "legal.heat": 18
+            },
+            "action": {
+              "type": "jail",
+              "years": 1
+            }
+          },
+          "failure": {
+            "outcome": "The action appears to go unnoticed for now, but the risk remains.",
+            "effects": {
+              "stats.reputation": -3,
+              "legal.heat": 7
+            }
+          }
+        },
+        "action": {
+          "type": "crime",
+          "severity": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Decline involvement",
+        "outcome": "You step away from a situation that may become worse.",
+        "effects": {
+          "stats.stress": -2,
+          "legal.heat": -1
+        }
+      }
+    ],
+    "sourceType": "legal"
+  }
+]

@@ -1,0 +1,554 @@
+[
+  {
+    "id": "calendar.education.enrollment_season",
+    "title": "Enrollment season",
+    "text": "Schools publish reminders about documents, class schedules and registration.",
+    "category": "education",
+    "minAge": 6,
+    "maxAge": 23,
+    "weight": 6,
+    "tags": [
+      "education",
+      "calendar"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Check official enrollment instructions",
+        "outcome": "Your effort becomes useful practice for the next opportunity.",
+        "effects": {
+          "education.performance": 7,
+          "stats.smarts": 3,
+          "stats.discipline": 3
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Help classmates organize requirements",
+        "outcome": "You stand out, but the gamble adds pressure.",
+        "effects": {
+          "stats.confidence": 6,
+          "stats.stress": 3,
+          "education.performance": -3
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Plan the next semester",
+        "outcome": "You keep your focus and choose a measured path.",
+        "effects": {
+          "stats.stress": -2,
+          "stats.happiness": 1
+        }
+      }
+    ],
+    "sourceType": "calendar"
+  },
+  {
+    "id": "calendar.education.back_to_school_supplies",
+    "title": "Back-to-school supplies",
+    "text": "Shops and community groups offer varied ways to prepare for a new school year.",
+    "category": "education",
+    "minAge": 6,
+    "maxAge": 23,
+    "weight": 6,
+    "tags": [
+      "education",
+      "calendar"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Budget for practical supplies",
+        "outcome": "Your effort becomes useful practice for the next opportunity.",
+        "effects": {
+          "education.performance": 7,
+          "stats.smarts": 3,
+          "stats.discipline": 3
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Create reusable materials",
+        "outcome": "You stand out, but the gamble adds pressure.",
+        "effects": {
+          "stats.confidence": 6,
+          "stats.stress": 3,
+          "education.performance": -3
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Sort your old notebooks",
+        "outcome": "You keep your focus and choose a measured path.",
+        "effects": {
+          "stats.stress": -2,
+          "stats.happiness": 1
+        }
+      }
+    ],
+    "sourceType": "calendar"
+  },
+  {
+    "id": "calendar.safety.rainy_season_commute",
+    "title": "Rainy-season commute",
+    "text": "Heavy rain slows the trip to school or work and people must make safer plans.",
+    "category": "safety",
+    "minAge": 6,
+    "maxAge": 79,
+    "weight": 6,
+    "tags": [
+      "safety",
+      "calendar"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Follow safety advice and adjust route",
+        "outcome": "Your preparedness improves the situation.",
+        "effects": {
+          "stats.health": 4,
+          "stats.reputation": 2,
+          "civic.service": 1
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Coordinate a safe shared ride",
+        "outcome": "Your initiative gets noticed, though risk rises.",
+        "effects": {
+          "stats.stress": 6,
+          "stats.reputation": 4,
+          "stats.health": -2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Wait until the weather improves",
+        "outcome": "You avoid unnecessary exposure to danger.",
+        "effects": {
+          "stats.stress": -3,
+          "stats.health": 1
+        }
+      }
+    ],
+    "sourceType": "calendar"
+  },
+  {
+    "id": "calendar.family.christmas_party_planning",
+    "title": "Christmas party planning",
+    "text": "Coworkers and relatives discuss different ways to celebrate the year, including secular options.",
+    "category": "family",
+    "minAge": 6,
+    "maxAge": 95,
+    "weight": 6,
+    "tags": [
+      "family",
+      "calendar"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Plan a welcoming affordable gathering",
+        "outcome": "The conversation makes room for care and practical support.",
+        "effects": {
+          "relationships.familyBond": 7,
+          "stats.empathy": 2,
+          "stats.happiness": 3
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Organize a charity activity",
+        "outcome": "Your bold approach changes the mood, though it costs something.",
+        "effects": {
+          "stats.happiness": 6,
+          "finance.cash": -350,
+          "relationships.familyBond": -2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Join quietly if comfortable",
+        "outcome": "You preserve your energy and avoid unnecessary conflict.",
+        "effects": {
+          "stats.stress": -2,
+          "stats.happiness": 1
+        }
+      }
+    ],
+    "sourceType": "calendar"
+  },
+  {
+    "id": "calendar.family.undas_travel_plans",
+    "title": "Undas travel plans",
+    "text": "Some relatives are planning to visit family graves or hold remembrance gatherings.",
+    "category": "family",
+    "minAge": 6,
+    "maxAge": 95,
+    "weight": 6,
+    "tags": [
+      "family",
+      "calendar"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Coordinate respectful travel",
+        "outcome": "The conversation makes room for care and practical support.",
+        "effects": {
+          "relationships.familyBond": 7,
+          "stats.empathy": 2,
+          "stats.happiness": 3
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Offer to help elders attend",
+        "outcome": "Your bold approach changes the mood, though it costs something.",
+        "effects": {
+          "stats.happiness": 6,
+          "finance.cash": -350,
+          "relationships.familyBond": -2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Remember loved ones at home",
+        "outcome": "You preserve your energy and avoid unnecessary conflict.",
+        "effects": {
+          "stats.stress": -2,
+          "stats.happiness": 1
+        }
+      }
+    ],
+    "sourceType": "calendar"
+  },
+  {
+    "id": "calendar.health.summer_heat_and_hydration",
+    "title": "Summer heat and hydration",
+    "text": "Outdoor events are filling the calendar despite especially hot afternoons.",
+    "category": "health",
+    "minAge": 6,
+    "maxAge": 95,
+    "weight": 6,
+    "tags": [
+      "health",
+      "calendar"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Plan hydration and shade",
+        "outcome": "You take a sensible step toward protecting wellbeing.",
+        "effects": {
+          "stats.health": 5,
+          "stats.stress": -3,
+          "finance.cash": -1000
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Move activity to cooler hours",
+        "outcome": "You try something different, but uncertainty and costs remain.",
+        "effects": {
+          "stats.health": -3,
+          "stats.happiness": 6,
+          "finance.cash": -1200
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Choose a rest day",
+        "outcome": "A measured choice lowers immediate stress.",
+        "effects": {
+          "stats.health": 2,
+          "stats.stress": -1
+        }
+      }
+    ],
+    "sourceType": "calendar"
+  },
+  {
+    "id": "calendar.culture.eid_community_invitation",
+    "title": "Eid community invitation",
+    "text": "A neighbor invites you to learn about a community celebration, with clear respect for different faiths.",
+    "category": "culture",
+    "minAge": 8,
+    "maxAge": 95,
+    "weight": 6,
+    "tags": [
+      "culture",
+      "calendar"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Accept respectfully if welcomed",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Ask thoughtful questions",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Offer warm greetings",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "calendar"
+  },
+  {
+    "id": "calendar.finance.town_fiesta_budget",
+    "title": "Town fiesta budget",
+    "text": "A neighborhood celebration approaches and families have different spending priorities.",
+    "category": "finance",
+    "minAge": 10,
+    "maxAge": 95,
+    "weight": 6,
+    "tags": [
+      "finance",
+      "calendar"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Keep spending within budget",
+        "outcome": "A practical choice leaves your finances more resilient.",
+        "effects": {
+          "finance.cash": 1500,
+          "stats.discipline": 3,
+          "stats.stress": -1
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Plan a shared potluck",
+        "outcome": "You gain an experience, but the expense is real.",
+        "effects": {
+          "finance.cash": -2500,
+          "stats.happiness": 6,
+          "stats.stress": 3
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Enjoy public activities instead",
+        "outcome": "You preserve flexibility for the next bill.",
+        "effects": {
+          "finance.savings": 300,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "calendar"
+  },
+  {
+    "id": "calendar.family.graduation_preparation",
+    "title": "Graduation preparation",
+    "text": "A student in your circle is approaching an important graduation milestone.",
+    "category": "family",
+    "minAge": 10,
+    "maxAge": 95,
+    "weight": 6,
+    "tags": [
+      "family",
+      "calendar"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Help plan an affordable ceremony",
+        "outcome": "The conversation makes room for care and practical support.",
+        "effects": {
+          "relationships.familyBond": 7,
+          "stats.empathy": 2,
+          "stats.happiness": 3
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Arrange a thoughtful gift",
+        "outcome": "Your bold approach changes the mood, though it costs something.",
+        "effects": {
+          "stats.happiness": 6,
+          "finance.cash": -350,
+          "relationships.familyBond": -2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Write a personal message",
+        "outcome": "You preserve your energy and avoid unnecessary conflict.",
+        "effects": {
+          "stats.stress": -2,
+          "stats.happiness": 1
+        }
+      }
+    ],
+    "sourceType": "calendar"
+  },
+  {
+    "id": "calendar.community.election_forum",
+    "title": "Election forum",
+    "text": "A nonpartisan community forum gives residents a chance to question local candidates.",
+    "category": "community",
+    "minAge": 18,
+    "maxAge": 95,
+    "weight": 6,
+    "tags": [
+      "community",
+      "calendar"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Ask issue-based questions",
+        "outcome": "Your neighbors appreciate constructive participation.",
+        "effects": {
+          "civic.service": 2,
+          "stats.reputation": 5,
+          "stats.empathy": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Help share neutral event details",
+        "outcome": "Your ambitious effort energizes people but strains resources.",
+        "effects": {
+          "civic.service": 1,
+          "stats.confidence": 6,
+          "finance.cash": -600
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Attend and listen",
+        "outcome": "You contribute in a quieter, sustainable way.",
+        "effects": {
+          "stats.reputation": 1,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "calendar"
+  },
+  {
+    "id": "calendar.safety.typhoon_season_checklist",
+    "title": "Typhoon season checklist",
+    "text": "Local safety officers encourage households to review disaster supplies and contacts.",
+    "category": "safety",
+    "minAge": 6,
+    "maxAge": 95,
+    "weight": 6,
+    "tags": [
+      "safety",
+      "calendar"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Review your preparedness kit",
+        "outcome": "Your preparedness improves the situation.",
+        "effects": {
+          "stats.health": 4,
+          "stats.reputation": 2,
+          "civic.service": 1
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Check official local hazard maps",
+        "outcome": "Your initiative gets noticed, though risk rises.",
+        "effects": {
+          "stats.stress": 6,
+          "stats.reputation": 4,
+          "stats.health": -2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Coordinate with family members",
+        "outcome": "You avoid unnecessary exposure to danger.",
+        "effects": {
+          "stats.stress": -3,
+          "stats.health": 1
+        }
+      }
+    ],
+    "sourceType": "calendar"
+  },
+  {
+    "id": "calendar.health.new_year_resolutions",
+    "title": "New-year resolutions",
+    "text": "Friends compare ambitious plans for health, savings and personal growth.",
+    "category": "health",
+    "minAge": 10,
+    "maxAge": 95,
+    "weight": 6,
+    "tags": [
+      "health",
+      "calendar"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Set achievable goals",
+        "outcome": "You take a sensible step toward protecting wellbeing.",
+        "effects": {
+          "stats.health": 5,
+          "stats.stress": -3,
+          "finance.cash": -1000
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Try a new shared hobby",
+        "outcome": "You try something different, but uncertainty and costs remain.",
+        "effects": {
+          "stats.health": -3,
+          "stats.happiness": 6,
+          "finance.cash": -1200
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Keep your current routine",
+        "outcome": "A measured choice lowers immediate stress.",
+        "effects": {
+          "stats.health": 2,
+          "stats.stress": -1
+        }
+      }
+    ],
+    "sourceType": "calendar"
+  }
+]

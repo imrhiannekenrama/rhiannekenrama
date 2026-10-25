@@ -1,0 +1,202 @@
+[
+  {
+    "id": "barangay_helper",
+    "title": "Help your local community",
+    "description": "Help your local community."
+  },
+  {
+    "id": "iskolar",
+    "title": "Finish college",
+    "description": "Finish college."
+  },
+  {
+    "id": "technical_talent",
+    "title": "Finish vocational training",
+    "description": "Finish vocational training."
+  },
+  {
+    "id": "family_first",
+    "title": "Have high family bond",
+    "description": "Have high family bond."
+  },
+  {
+    "id": "first_paycheck",
+    "title": "Earn your first full salary",
+    "description": "Earn your first full salary."
+  },
+  {
+    "id": "negosyante",
+    "title": "Start a business",
+    "description": "Start a business."
+  },
+  {
+    "id": "financial_cushion",
+    "title": "Save 100000 pesos",
+    "description": "Save 100000 pesos."
+  },
+  {
+    "id": "millionaire",
+    "title": "Reach 1000000 pesos in net worth",
+    "description": "Reach 1000000 pesos in net worth."
+  },
+  {
+    "id": "multimillionaire",
+    "title": "Reach 10000000 pesos in net worth",
+    "description": "Reach 10000000 pesos in net worth."
+  },
+  {
+    "id": "homeowner",
+    "title": "Purchase a home",
+    "description": "Purchase a home."
+  },
+  {
+    "id": "road_warrior",
+    "title": "Own a vehicle",
+    "description": "Own a vehicle."
+  },
+  {
+    "id": "first_love",
+    "title": "Enter a relationship",
+    "description": "Enter a relationship."
+  },
+  {
+    "id": "wedding_bells",
+    "title": "Get married",
+    "description": "Get married."
+  },
+  {
+    "id": "parenthood",
+    "title": "Raise a child",
+    "description": "Raise a child."
+  },
+  {
+    "id": "lolo_lola",
+    "title": "See a grandchild",
+    "description": "See a grandchild."
+  },
+  {
+    "id": "worldly",
+    "title": "Work abroad",
+    "description": "Work abroad."
+  },
+  {
+    "id": "bayanihan_hero",
+    "title": "Complete ten community actions",
+    "description": "Complete ten community actions."
+  },
+  {
+    "id": "scholarship",
+    "title": "Receive an academic scholarship",
+    "description": "Receive an academic scholarship."
+  },
+  {
+    "id": "teacher_of_year",
+    "title": "Excel as an educator",
+    "description": "Excel as an educator."
+  },
+  {
+    "id": "career_climber",
+    "title": "Reach senior job level",
+    "description": "Reach senior job level."
+  },
+  {
+    "id": "business_builder",
+    "title": "Operate three businesses",
+    "description": "Operate three businesses."
+  },
+  {
+    "id": "green_living",
+    "title": "Improve community environment",
+    "description": "Improve community environment."
+  },
+  {
+    "id": "festival_fan",
+    "title": "Take part in festivals",
+    "description": "Take part in festivals."
+  },
+  {
+    "id": "local_history",
+    "title": "Join a heritage activity",
+    "description": "Join a heritage activity."
+  },
+  {
+    "id": "barangay_voice",
+    "title": "Participate in community consultations",
+    "description": "Participate in community consultations."
+  },
+  {
+    "id": "after_storm",
+    "title": "Help recovery after a calamity",
+    "description": "Help recovery after a calamity."
+  },
+  {
+    "id": "health_first",
+    "title": "Improve low health",
+    "description": "Improve low health."
+  },
+  {
+    "id": "second_chance",
+    "title": "Rebuild after a setback",
+    "description": "Rebuild after a setback."
+  },
+  {
+    "id": "lifelong_learner",
+    "title": "Return to study as an adult",
+    "description": "Return to study as an adult."
+  },
+  {
+    "id": "generous_heart",
+    "title": "Make many charitable choices",
+    "description": "Make many charitable choices."
+  },
+  {
+    "id": "long_life",
+    "title": "Reach 90 years old",
+    "description": "Reach 90 years old."
+  },
+  {
+    "id": "centenarian",
+    "title": "Reach 100 years old",
+    "description": "Reach 100 years old."
+  },
+  {
+    "id": "creative_spark",
+    "title": "Pursue an arts career",
+    "description": "Pursue an arts career."
+  },
+  {
+    "id": "tech_builder",
+    "title": "Pursue a technology career",
+    "description": "Pursue a technology career."
+  },
+  {
+    "id": "public_service",
+    "title": "Pursue public service",
+    "description": "Pursue public service."
+  },
+  {
+    "id": "medical_hero",
+    "title": "Pursue healthcare",
+    "description": "Pursue healthcare."
+  },
+  {
+    "id": "seaside_life",
+    "title": "Pursue maritime work",
+    "description": "Pursue maritime work."
+  },
+  {
+    "id": "rural_roots",
+    "title": "Pursue agriculture",
+    "description": "Pursue agriculture."
+  },
+  {
+    "id": "steady_saver",
+    "title": "Save for five straight years",
+    "description": "Save for five straight years."
+  },
+  {
+    "id": "entrepreneurial_spirit",
+    "title": "Earn a profit from a small business",
+    "description": "Earn a profit from a small business."
+  }
+]

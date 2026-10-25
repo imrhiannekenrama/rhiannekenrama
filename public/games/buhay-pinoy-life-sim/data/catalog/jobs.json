@@ -1,0 +1,1037 @@
+[
+  {
+    "id": "farmer",
+    "title": "Farmer",
+    "requiredEducation": "elementary",
+    "annualBasePayPHP": 185000,
+    "industry": "Agriculture",
+    "workContext": "fields and irrigation",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "rice_miller",
+    "title": "Rice mill operator",
+    "requiredEducation": "jhs",
+    "annualBasePayPHP": 228000,
+    "industry": "Agriculture",
+    "workContext": "palay drying and milling",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "agri_technician",
+    "title": "Agricultural technician",
+    "requiredEducation": "technical",
+    "annualBasePayPHP": 285000,
+    "industry": "Agriculture",
+    "workContext": "soil and crop advice",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "fisher",
+    "title": "Municipal fisher",
+    "requiredEducation": "elementary",
+    "annualBasePayPHP": 186000,
+    "industry": "Maritime",
+    "workContext": "boat engines and fish landing",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "fish_vendor",
+    "title": "Fish vendor",
+    "requiredEducation": "elementary",
+    "annualBasePayPHP": 206000,
+    "industry": "Commerce",
+    "workContext": "the fish market",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "seaweed_grower",
+    "title": "Seaweed grower",
+    "requiredEducation": "elementary",
+    "annualBasePayPHP": 198000,
+    "industry": "Agriculture",
+    "workContext": "coastal seaweed plots",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "poultry_farmer",
+    "title": "Poultry farmer",
+    "requiredEducation": "jhs",
+    "annualBasePayPHP": 236000,
+    "industry": "Agriculture",
+    "workContext": "the poultry coop",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "livestock_caretaker",
+    "title": "Livestock caretaker",
+    "requiredEducation": "jhs",
+    "annualBasePayPHP": 216000,
+    "industry": "Agriculture",
+    "workContext": "animal feeding and care",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "sari_sari_owner",
+    "title": "Sari-sari store operator",
+    "requiredEducation": "jhs",
+    "annualBasePayPHP": 230000,
+    "industry": "Microbusiness",
+    "workContext": "neighborhood inventory",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "palengke_vendor",
+    "title": "Public market vendor",
+    "requiredEducation": "jhs",
+    "annualBasePayPHP": 226000,
+    "industry": "Commerce",
+    "workContext": "the public market",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "carinderia_cook",
+    "title": "Carinderia cook",
+    "requiredEducation": "jhs",
+    "annualBasePayPHP": 244000,
+    "industry": "Hospitality",
+    "workContext": "daily ulam and rice plates",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "bakery_assistant",
+    "title": "Bakery assistant",
+    "requiredEducation": "jhs",
+    "annualBasePayPHP": 224000,
+    "industry": "Hospitality",
+    "workContext": "pandesal production",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "baker",
+    "title": "Baker",
+    "requiredEducation": "technical",
+    "annualBasePayPHP": 290000,
+    "industry": "Hospitality",
+    "workContext": "bread ovens",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "barista",
+    "title": "Barista",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 248000,
+    "industry": "Hospitality",
+    "workContext": "the coffee counter",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "waiter",
+    "title": "Restaurant server",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 236000,
+    "industry": "Hospitality",
+    "workContext": "dining tables",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "hotel_clerk",
+    "title": "Hotel front desk staff",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 275000,
+    "industry": "Tourism",
+    "workContext": "guest check-in",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "hotel_manager",
+    "title": "Hotel manager",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 650000,
+    "industry": "Tourism",
+    "workContext": "guest services and staffing",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "resort_guide",
+    "title": "Resort guide",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 288000,
+    "industry": "Tourism",
+    "workContext": "island visitors",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "tour_guide",
+    "title": "Local tour guide",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 306000,
+    "industry": "Tourism",
+    "workContext": "historic walking tours",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "travel_agent",
+    "title": "Travel agent",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 296000,
+    "industry": "Tourism",
+    "workContext": "itineraries and bookings",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "jeepney_driver",
+    "title": "Jeepney driver",
+    "requiredEducation": "jhs",
+    "annualBasePayPHP": 245000,
+    "industry": "Transport",
+    "workContext": "daily jeepney routes",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "tricycle_driver",
+    "title": "Tricycle driver",
+    "requiredEducation": "jhs",
+    "annualBasePayPHP": 215000,
+    "industry": "Transport",
+    "workContext": "barangay passengers",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "bus_driver",
+    "title": "Bus driver",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 315000,
+    "industry": "Transport",
+    "workContext": "intercity terminals",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "ride_hailing_driver",
+    "title": "Ride-hailing driver",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 308000,
+    "industry": "Transport",
+    "workContext": "app-based passenger trips",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "courier",
+    "title": "Delivery rider",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 264000,
+    "industry": "Logistics",
+    "workContext": "parcel pickup and delivery",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "warehouse_staff",
+    "title": "Warehouse staff",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 250000,
+    "industry": "Logistics",
+    "workContext": "inventory and packing",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "logistics_planner",
+    "title": "Logistics planner",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 465000,
+    "industry": "Logistics",
+    "workContext": "dispatch scheduling",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "mechanic",
+    "title": "Automotive mechanic",
+    "requiredEducation": "technical",
+    "annualBasePayPHP": 340000,
+    "industry": "Skilled trade",
+    "workContext": "engine repairs",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "motorcycle_mechanic",
+    "title": "Motorcycle mechanic",
+    "requiredEducation": "technical",
+    "annualBasePayPHP": 315000,
+    "industry": "Skilled trade",
+    "workContext": "motorcycle servicing",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "electrician",
+    "title": "Electrician",
+    "requiredEducation": "technical",
+    "annualBasePayPHP": 345000,
+    "industry": "Skilled trade",
+    "workContext": "wiring and safety",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "plumber",
+    "title": "Plumber",
+    "requiredEducation": "technical",
+    "annualBasePayPHP": 320000,
+    "industry": "Skilled trade",
+    "workContext": "pipes and drainage",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "welder",
+    "title": "Welder",
+    "requiredEducation": "technical",
+    "annualBasePayPHP": 360000,
+    "industry": "Skilled trade",
+    "workContext": "metal fabrication",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "carpenter",
+    "title": "Carpenter",
+    "requiredEducation": "technical",
+    "annualBasePayPHP": 330000,
+    "industry": "Construction",
+    "workContext": "woodwork and interiors",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "mason",
+    "title": "Mason",
+    "requiredEducation": "technical",
+    "annualBasePayPHP": 320000,
+    "industry": "Construction",
+    "workContext": "concrete and walls",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "construction_worker",
+    "title": "Construction worker",
+    "requiredEducation": "jhs",
+    "annualBasePayPHP": 240000,
+    "industry": "Construction",
+    "workContext": "construction sites",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "civil_engineer",
+    "title": "Civil engineer",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 575000,
+    "industry": "Engineering",
+    "workContext": "plans and site supervision",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "architect",
+    "title": "Architect",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 580000,
+    "industry": "Engineering",
+    "workContext": "building plans",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "survey_technician",
+    "title": "Survey technician",
+    "requiredEducation": "technical",
+    "annualBasePayPHP": 355000,
+    "industry": "Engineering",
+    "workContext": "land measuring",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "seafarer",
+    "title": "Seafarer",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 460000,
+    "industry": "Maritime",
+    "workContext": "life aboard ship",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "marine_engineer",
+    "title": "Marine engineer",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 790000,
+    "industry": "Maritime",
+    "workContext": "vessel engines",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "port_worker",
+    "title": "Port operations staff",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 322000,
+    "industry": "Maritime",
+    "workContext": "cargo manifests",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "boat_builder",
+    "title": "Boat builder",
+    "requiredEducation": "technical",
+    "annualBasePayPHP": 335000,
+    "industry": "Maritime",
+    "workContext": "hull and vessel repairs",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "public_teacher",
+    "title": "Public school teacher",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 414000,
+    "industry": "Education",
+    "workContext": "classrooms and lessons",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "private_teacher",
+    "title": "Private school teacher",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 360000,
+    "industry": "Education",
+    "workContext": "school instruction",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "daycare_worker",
+    "title": "Daycare worker",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 235000,
+    "industry": "Education",
+    "workContext": "early childhood activities",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "university_lecturer",
+    "title": "University lecturer",
+    "requiredEducation": "postgrad",
+    "annualBasePayPHP": 720000,
+    "industry": "Education",
+    "workContext": "lectures and research",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "school_principal",
+    "title": "School principal",
+    "requiredEducation": "postgrad",
+    "annualBasePayPHP": 775000,
+    "industry": "Education",
+    "workContext": "school administration",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "librarian",
+    "title": "Librarian",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 400000,
+    "industry": "Education",
+    "workContext": "catalogues and reading programs",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "tutor",
+    "title": "Private tutor",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 355000,
+    "industry": "Education",
+    "workContext": "study sessions",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "nurse",
+    "title": "Registered nurse",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 465000,
+    "industry": "Health",
+    "workContext": "patient rounds",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "doctor",
+    "title": "Physician",
+    "requiredEducation": "postgrad",
+    "annualBasePayPHP": 1150000,
+    "industry": "Health",
+    "workContext": "consultations and treatment",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "midwife",
+    "title": "Midwife",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 420000,
+    "industry": "Health",
+    "workContext": "maternal care",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "medical_technologist",
+    "title": "Medical technologist",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 485000,
+    "industry": "Health",
+    "workContext": "laboratory testing",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "pharmacist",
+    "title": "Pharmacist",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 500000,
+    "industry": "Health",
+    "workContext": "prescriptions and patient advice",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "dentist",
+    "title": "Dentist",
+    "requiredEducation": "postgrad",
+    "annualBasePayPHP": 850000,
+    "industry": "Health",
+    "workContext": "dental clinics",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "physical_therapist",
+    "title": "Physical therapist",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 476000,
+    "industry": "Health",
+    "workContext": "mobility exercises",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "community_health_worker",
+    "title": "Barangay health worker",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 226000,
+    "industry": "Health",
+    "workContext": "health outreach",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "social_worker",
+    "title": "Social worker",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 410000,
+    "industry": "Public service",
+    "workContext": "family assistance",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "barangay_secretary",
+    "title": "Barangay secretary",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 280000,
+    "industry": "Public service",
+    "workContext": "local records",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "local_government_clerk",
+    "title": "Local government clerk",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 300000,
+    "industry": "Public service",
+    "workContext": "public transactions",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "civil_servant",
+    "title": "Government administrative officer",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 458000,
+    "industry": "Public service",
+    "workContext": "civil service paperwork",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "firefighter",
+    "title": "Firefighter",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 430000,
+    "industry": "Public safety",
+    "workContext": "fire station duty",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "police_officer",
+    "title": "Police officer",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 440000,
+    "industry": "Public safety",
+    "workContext": "patrol and community calls",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "rescue_worker",
+    "title": "Emergency responder",
+    "requiredEducation": "technical",
+    "annualBasePayPHP": 310000,
+    "industry": "Public safety",
+    "workContext": "rescue drills and calls",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "lawyer",
+    "title": "Lawyer",
+    "requiredEducation": "postgrad",
+    "annualBasePayPHP": 910000,
+    "industry": "Law",
+    "workContext": "court hearings and legal research",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "paralegal",
+    "title": "Paralegal",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 446000,
+    "industry": "Law",
+    "workContext": "case documents",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "accountant",
+    "title": "Accountant",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 560000,
+    "industry": "Finance",
+    "workContext": "financial statements",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "bookkeeper",
+    "title": "Bookkeeper",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 340000,
+    "industry": "Finance",
+    "workContext": "receipts and ledgers",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "bank_teller",
+    "title": "Bank teller",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 380000,
+    "industry": "Finance",
+    "workContext": "bank transactions",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "loan_officer",
+    "title": "Loan officer",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 475000,
+    "industry": "Finance",
+    "workContext": "borrower assessments",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "insurance_agent",
+    "title": "Insurance agent",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 400000,
+    "industry": "Finance",
+    "workContext": "client policies",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "bpo_agent",
+    "title": "BPO customer service agent",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 335000,
+    "industry": "Business process outsourcing",
+    "workContext": "customer calls",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "bpo_trainer",
+    "title": "BPO trainer",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 485000,
+    "industry": "Business process outsourcing",
+    "workContext": "agent training",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "bpo_team_lead",
+    "title": "BPO team leader",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 535000,
+    "industry": "Business process outsourcing",
+    "workContext": "team metrics",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "virtual_assistant",
+    "title": "Virtual assistant",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 410000,
+    "industry": "Remote work",
+    "workContext": "remote client tasks",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "online_seller",
+    "title": "Online store operator",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 350000,
+    "industry": "E-commerce",
+    "workContext": "orders and livestreams",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "web_developer",
+    "title": "Web developer",
+    "requiredEducation": "technical",
+    "annualBasePayPHP": 585000,
+    "industry": "Technology",
+    "workContext": "website builds",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "software_engineer",
+    "title": "Software engineer",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 920000,
+    "industry": "Technology",
+    "workContext": "software releases",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "it_support",
+    "title": "IT support specialist",
+    "requiredEducation": "technical",
+    "annualBasePayPHP": 400000,
+    "industry": "Technology",
+    "workContext": "office tech troubleshooting",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "cybersecurity_analyst",
+    "title": "Cybersecurity analyst",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 810000,
+    "industry": "Technology",
+    "workContext": "security monitoring",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "data_analyst",
+    "title": "Data analyst",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 660000,
+    "industry": "Technology",
+    "workContext": "reports and datasets",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "graphic_designer",
+    "title": "Graphic designer",
+    "requiredEducation": "technical",
+    "annualBasePayPHP": 410000,
+    "industry": "Creative",
+    "workContext": "layouts and branding",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "photographer",
+    "title": "Photographer",
+    "requiredEducation": "technical",
+    "annualBasePayPHP": 395000,
+    "industry": "Creative",
+    "workContext": "photo sessions",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "videographer",
+    "title": "Videographer",
+    "requiredEducation": "technical",
+    "annualBasePayPHP": 425000,
+    "industry": "Creative",
+    "workContext": "video shoots",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "content_creator",
+    "title": "Content creator",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 310000,
+    "industry": "Creative",
+    "workContext": "short-form content",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "radio_host",
+    "title": "Radio host",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 425000,
+    "industry": "Media",
+    "workContext": "on-air interviews",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "journalist",
+    "title": "Journalist",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 410000,
+    "industry": "Media",
+    "workContext": "reporting and deadlines",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "editor",
+    "title": "Editor",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 470000,
+    "industry": "Media",
+    "workContext": "story editing",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "musician",
+    "title": "Musician",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 350000,
+    "industry": "Arts",
+    "workContext": "rehearsals and gigs",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "actor",
+    "title": "Actor",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 430000,
+    "industry": "Arts",
+    "workContext": "auditions and scenes",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "dancer",
+    "title": "Dancer",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 325000,
+    "industry": "Arts",
+    "workContext": "dance rehearsals",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "makeup_artist",
+    "title": "Makeup artist",
+    "requiredEducation": "technical",
+    "annualBasePayPHP": 320000,
+    "industry": "Beauty",
+    "workContext": "bridal and event makeup",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "hair_stylist",
+    "title": "Hair stylist",
+    "requiredEducation": "technical",
+    "annualBasePayPHP": 315000,
+    "industry": "Beauty",
+    "workContext": "salon appointments",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "fashion_designer",
+    "title": "Fashion designer",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 465000,
+    "industry": "Beauty",
+    "workContext": "clothing collections",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "security_guard",
+    "title": "Security guard",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 230000,
+    "industry": "Security",
+    "workContext": "security shifts",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "call_center_qa",
+    "title": "Call center quality analyst",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 440000,
+    "industry": "Business process outsourcing",
+    "workContext": "quality monitoring",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "research_assistant",
+    "title": "Research assistant",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 430000,
+    "industry": "Science",
+    "workContext": "field notes and surveys",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "environment_officer",
+    "title": "Environmental officer",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 495000,
+    "industry": "Environment",
+    "workContext": "conservation assessments",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "ngo_coordinator",
+    "title": "NGO program coordinator",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 465000,
+    "industry": "Nonprofit",
+    "workContext": "community programs",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "community_organizer",
+    "title": "Community organizer",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 330000,
+    "industry": "Nonprofit",
+    "workContext": "local volunteer groups",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "real_estate_agent",
+    "title": "Real estate agent",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 430000,
+    "industry": "Property",
+    "workContext": "property showings",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "property_manager",
+    "title": "Property manager",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 525000,
+    "industry": "Property",
+    "workContext": "leases and maintenance",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "factory_worker",
+    "title": "Factory worker",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 255000,
+    "industry": "Manufacturing",
+    "workContext": "production lines",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "quality_inspector",
+    "title": "Quality inspector",
+    "requiredEducation": "technical",
+    "annualBasePayPHP": 345000,
+    "industry": "Manufacturing",
+    "workContext": "production checks",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "food_technologist",
+    "title": "Food technologist",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 515000,
+    "industry": "Manufacturing",
+    "workContext": "food safety testing",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "small_business_owner",
+    "title": "Small business operator",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 390000,
+    "industry": "Microbusiness",
+    "workContext": "suppliers and customers",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "entrepreneur",
+    "title": "Entrepreneur",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 400000,
+    "industry": "Microbusiness",
+    "workContext": "start-up decisions",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "politician",
+    "title": "Local elected official",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 600000,
+    "industry": "Civic",
+    "workContext": "community policy meetings",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "judge",
+    "title": "Judge",
+    "requiredEducation": "postgrad",
+    "annualBasePayPHP": 1100000,
+    "industry": "Law",
+    "workContext": "court decisions",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "pilot",
+    "title": "Airline pilot",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 1300000,
+    "industry": "Aviation",
+    "workContext": "flight operations",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "flight_attendant",
+    "title": "Flight attendant",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 600000,
+    "industry": "Aviation",
+    "workContext": "aircraft cabin service",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "airport_staff",
+    "title": "Airport operations staff",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 320000,
+    "industry": "Aviation",
+    "workContext": "passenger logistics",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "ofw_caregiver",
+    "title": "Overseas Filipino caregiver",
+    "requiredEducation": "technical",
+    "annualBasePayPHP": 690000,
+    "industry": "Overseas work",
+    "workContext": "caregiving abroad",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "ofw_hospitality",
+    "title": "Overseas hospitality worker",
+    "requiredEducation": "shs",
+    "annualBasePayPHP": 645000,
+    "industry": "Overseas work",
+    "workContext": "hotel work abroad",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  },
+  {
+    "id": "ofw_engineer",
+    "title": "Overseas engineer",
+    "requiredEducation": "college",
+    "annualBasePayPHP": 1250000,
+    "industry": "Overseas work",
+    "workContext": "engineering overseas",
+    "gameEconomyDisclaimer": "Fictional balancing values; not wage statistics."
+  }
+]

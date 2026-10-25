@@ -1,0 +1,142 @@
+[
+  {
+    "id": "basic_phone",
+    "name": "Budget smartphone",
+    "type": "asset",
+    "pricePHP": 4500,
+    "annualMaintenancePHP": 480
+  },
+  {
+    "id": "mid_phone",
+    "name": "Midrange smartphone",
+    "type": "asset",
+    "pricePHP": 14500,
+    "annualMaintenancePHP": 660
+  },
+  {
+    "id": "laptop",
+    "name": "Laptop for work or school",
+    "type": "asset",
+    "pricePHP": 32500,
+    "annualMaintenancePHP": 780
+  },
+  {
+    "id": "motorcycle",
+    "name": "Commuter motorcycle",
+    "type": "vehicle",
+    "pricePHP": 78000,
+    "annualMaintenancePHP": 1560
+  },
+  {
+    "id": "used_car",
+    "name": "Used family car",
+    "type": "vehicle",
+    "pricePHP": 380000,
+    "annualMaintenancePHP": 3120
+  },
+  {
+    "id": "car",
+    "name": "New family car",
+    "type": "vehicle",
+    "pricePHP": 890000,
+    "annualMaintenancePHP": 4080
+  },
+  {
+    "id": "secondhand_tricycle",
+    "name": "Secondhand tricycle",
+    "type": "vehicle",
+    "pricePHP": 108000,
+    "annualMaintenancePHP": 1920
+  },
+  {
+    "id": "bicycle",
+    "name": "Bicycle",
+    "type": "vehicle",
+    "pricePHP": 7400,
+    "annualMaintenancePHP": 480
+  },
+  {
+    "id": "condo",
+    "name": "Small condominium",
+    "type": "home",
+    "pricePHP": 2900000,
+    "annualMaintenancePHP": 6120
+  },
+  {
+    "id": "rowhouse",
+    "name": "Rowhouse",
+    "type": "home",
+    "pricePHP": 1950000,
+    "annualMaintenancePHP": 5100
+  },
+  {
+    "id": "provincial_home",
+    "name": "Provincial home",
+    "type": "home",
+    "pricePHP": 1300000,
+    "annualMaintenancePHP": 4440
+  },
+  {
+    "id": "farmland",
+    "name": "Small farmland parcel",
+    "type": "property",
+    "pricePHP": 540000,
+    "annualMaintenancePHP": 3480
+  },
+  {
+    "id": "beach_lot",
+    "name": "Coastal property lot",
+    "type": "property",
+    "pricePHP": 880000,
+    "annualMaintenancePHP": 3300
+  },
+  {
+    "id": "small_boat",
+    "name": "Small fishing boat",
+    "type": "vehicle",
+    "pricePHP": 180000,
+    "annualMaintenancePHP": 2160
+  },
+  {
+    "id": "savings_bond",
+    "name": "Savings instrument",
+    "type": "investment",
+    "pricePHP": 20000,
+    "annualMaintenancePHP": 0
+  },
+  {
+    "id": "coop_share",
+    "name": "Cooperative contribution",
+    "type": "investment",
+    "pricePHP": 5000,
+    "annualMaintenancePHP": 0
+  },
+  {
+    "id": "market_stall",
+    "name": "Palengke market stall",
+    "type": "business_asset",
+    "pricePHP": 70000,
+    "annualMaintenancePHP": 1680
+  },
+  {
+    "id": "sari_sari_stock",
+    "name": "Sari-sari opening inventory",
+    "type": "business_asset",
+    "pricePHP": 15500,
+    "annualMaintenancePHP": 780
+  },
+  {
+    "id": "water_purifier",
+    "name": "Water purification system",
+    "type": "asset",
+    "pricePHP": 9300,
+    "annualMaintenancePHP": 600
+  },
+  {
+    "id": "home_solar",
+    "name": "Home solar installation",
+    "type": "asset",
+    "pricePHP": 158000,
+    "annualMaintenancePHP": 1440
+  }
+]

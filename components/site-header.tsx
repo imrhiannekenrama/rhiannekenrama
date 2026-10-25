@@ -4,7 +4,7 @@ import Link from 'next/link';
 import {usePathname} from 'next/navigation';
 import {Menu,X,Search} from 'lucide-react';
 
-const mainNav=[['/','Home'],['/about','About'],['/explore','Explore'],['/bible','The Word'],['/ideas','Ideas'],['/achievements','Achievements'],['/contact','Contact']] as const;
+const mainNav=[['/','Home'],['/about','About'],['/explore','Explore'],['/bible','The Word'],['/games','Games'],['/ideas','Ideas'],['/achievements','Achievements'],['/contact','Contact']] as const;
 export function SiteHeader({name='Rhianne Ken S. Rama'}:{name?:string}){
  const [open,setOpen]=useState(false);const path=usePathname();
  useEffect(()=>{if(!open)return;const onKey=(e:KeyboardEvent)=>{if(e.key==='Escape')setOpen(false);};
@@ -21,6 +21,6 @@ export function SiteHeader({name='Rhianne Ken S. Rama'}:{name?:string}){
  </div>{open&&<nav id="mobile-site-nav" className="container nav-mobile" aria-label="Mobile navigation">{mainNav.map(([href,label])=><Link key={href} href={href} aria-current={path===href?'page':undefined}>{label}</Link>)}<Link href="/search">Search</Link></nav>}</header>;
 }
 export function SiteFooter({name='Rhianne Ken S. Rama'}:{name?:string}){return <footer className="footer"><div className="container space wrap"><div><strong>{name}</strong><p className="small" style={{margin:'4px 0'}}>Books, research, photographs and moments from my life.</p>
-<p className="small" style={{margin:'4px 0 0'}}>Background music: <a href="https://incompetech.com" rel="noopener noreferrer" target="_blank">Kevin MacLeod</a> (CC BY 4.0)</p></div><div className="flex wrap"><Link href="/bible" className="small">The Word</Link><Link href="/about" className="small">About Me</Link><Link href="/explore" className="small">Explore</Link><Link href="/ideas" className="small">Ideas</Link><Link href="/achievements" className="small">Achievements</Link><Link href="/contact" className="small">Contact</Link></div></div></footer>}
+<p className="small" style={{margin:'4px 0 0'}}>Background music: <a href="https://incompetech.com" rel="noopener noreferrer" target="_blank">Kevin MacLeod</a> (CC BY 4.0)</p></div><div className="flex wrap"><Link href="/bible" className="small">The Word</Link><Link href="/games" className="small">Games</Link><Link href="/about" className="small">About Me</Link><Link href="/explore" className="small">Explore</Link><Link href="/ideas" className="small">Ideas</Link><Link href="/achievements" className="small">Achievements</Link><Link href="/contact" className="small">Contact</Link></div></div></footer>}
 
 

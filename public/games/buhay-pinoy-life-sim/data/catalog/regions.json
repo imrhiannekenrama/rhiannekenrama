@@ -1,0 +1,413 @@
+[
+  {
+    "id": "ncr",
+    "name": "National Capital Region",
+    "label": "Metro Manila",
+    "sampleLocations": [
+      "Quezon City",
+      "Manila",
+      "Makati",
+      "Pasig",
+      "Taguig",
+      "Caloocan"
+    ],
+    "languages": [
+      "Filipino",
+      "English"
+    ],
+    "gameCostMultiplier": 1.45,
+    "contextTags": [
+      "urban",
+      "commute"
+    ]
+  },
+  {
+    "id": "car",
+    "name": "Cordillera Administrative Region",
+    "label": "Cordillera",
+    "sampleLocations": [
+      "Baguio",
+      "La Trinidad",
+      "Tabuk",
+      "Bontoc",
+      "Banaue"
+    ],
+    "languages": [
+      "Ilocano",
+      "Kankanaey",
+      "Ibaloi",
+      "Filipino"
+    ],
+    "gameCostMultiplier": 1.05,
+    "contextTags": [
+      "highland",
+      "arts"
+    ]
+  },
+  {
+    "id": "r1",
+    "name": "Ilocos Region",
+    "label": "Ilocos",
+    "sampleLocations": [
+      "Laoag",
+      "Vigan",
+      "San Fernando (La Union)",
+      "Dagupan",
+      "Alaminos"
+    ],
+    "languages": [
+      "Ilocano",
+      "Pangasinan",
+      "Filipino"
+    ],
+    "gameCostMultiplier": 0.96,
+    "contextTags": [
+      "coastal",
+      "heritage"
+    ]
+  },
+  {
+    "id": "r2",
+    "name": "Cagayan Valley",
+    "label": "Cagayan Valley",
+    "sampleLocations": [
+      "Tuguegarao",
+      "Ilagan",
+      "Cauayan",
+      "Bayombong",
+      "Basco"
+    ],
+    "languages": [
+      "Ilocano",
+      "Ibanag",
+      "Ivatan",
+      "Filipino"
+    ],
+    "gameCostMultiplier": 0.94,
+    "contextTags": [
+      "valley",
+      "farming"
+    ]
+  },
+  {
+    "id": "r3",
+    "name": "Central Luzon",
+    "label": "Central Luzon",
+    "sampleLocations": [
+      "San Fernando (Pampanga)",
+      "Angeles",
+      "Malolos",
+      "Tarlac City",
+      "Cabanatuan",
+      "Balanga"
+    ],
+    "languages": [
+      "Kapampangan",
+      "Tagalog",
+      "Filipino"
+    ],
+    "gameCostMultiplier": 1.03,
+    "contextTags": [
+      "farming",
+      "industry"
+    ]
+  },
+  {
+    "id": "r4a",
+    "name": "CALABARZON",
+    "label": "Southern Tagalog",
+    "sampleLocations": [
+      "Antipolo",
+      "Calamba",
+      "Batangas City",
+      "Lucena",
+      "Dasmariñas",
+      "Santa Rosa"
+    ],
+    "languages": [
+      "Tagalog",
+      "Filipino"
+    ],
+    "gameCostMultiplier": 1.12,
+    "contextTags": [
+      "industry",
+      "coastal"
+    ]
+  },
+  {
+    "id": "mimaropa",
+    "name": "MIMAROPA",
+    "label": "Southwestern Islands",
+    "sampleLocations": [
+      "Puerto Princesa",
+      "Calapan",
+      "Romblon",
+      "Boac",
+      "San Jose (Occidental Mindoro)"
+    ],
+    "languages": [
+      "Tagalog",
+      "Cuyonon",
+      "Mangyan languages",
+      "Filipino"
+    ],
+    "gameCostMultiplier": 1.03,
+    "contextTags": [
+      "island",
+      "coastal"
+    ]
+  },
+  {
+    "id": "r5",
+    "name": "Bicol Region",
+    "label": "Bicol",
+    "sampleLocations": [
+      "Legazpi",
+      "Naga",
+      "Sorsogon City",
+      "Masbate City",
+      "Virac"
+    ],
+    "languages": [
+      "Bikol",
+      "Filipino"
+    ],
+    "gameCostMultiplier": 0.96,
+    "contextTags": [
+      "coastal",
+      "festival"
+    ]
+  },
+  {
+    "id": "r6",
+    "name": "Western Visayas",
+    "label": "Western Visayas",
+    "sampleLocations": [
+      "Iloilo City",
+      "Roxas City",
+      "Kalibo",
+      "San Jose de Buenavista",
+      "Jordan"
+    ],
+    "languages": [
+      "Hiligaynon",
+      "Aklanon",
+      "Kinaray-a",
+      "Filipino"
+    ],
+    "gameCostMultiplier": 1.0,
+    "contextTags": [
+      "island",
+      "heritage"
+    ]
+  },
+  {
+    "id": "nir",
+    "name": "Negros Island Region",
+    "label": "Negros and Siquijor",
+    "sampleLocations": [
+      "Bacolod",
+      "Dumaguete",
+      "Kabankalan",
+      "Bais",
+      "Siquijor"
+    ],
+    "languages": [
+      "Hiligaynon",
+      "Cebuano",
+      "Filipino"
+    ],
+    "gameCostMultiplier": 0.98,
+    "contextTags": [
+      "island",
+      "sugarcane"
+    ]
+  },
+  {
+    "id": "r7",
+    "name": "Central Visayas",
+    "label": "Central Visayas",
+    "sampleLocations": [
+      "Cebu City",
+      "Lapu-Lapu",
+      "Mandaue",
+      "Tagbilaran",
+      "Toledo"
+    ],
+    "languages": [
+      "Cebuano",
+      "Boholano",
+      "Filipino"
+    ],
+    "gameCostMultiplier": 1.1,
+    "contextTags": [
+      "tourism",
+      "maritime"
+    ]
+  },
+  {
+    "id": "r8",
+    "name": "Eastern Visayas",
+    "label": "Eastern Visayas",
+    "sampleLocations": [
+      "Tacloban",
+      "Ormoc",
+      "Catbalogan",
+      "Calbayog",
+      "Borongan",
+      "Maasin"
+    ],
+    "languages": [
+      "Waray",
+      "Cebuano",
+      "Filipino"
+    ],
+    "gameCostMultiplier": 0.96,
+    "contextTags": [
+      "coastal",
+      "farming"
+    ]
+  },
+  {
+    "id": "r9",
+    "name": "Zamboanga Peninsula",
+    "label": "Zamboanga Peninsula and Sulu",
+    "sampleLocations": [
+      "Zamboanga City",
+      "Pagadian",
+      "Dipolog",
+      "Dapitan",
+      "Jolo"
+    ],
+    "languages": [
+      "Chavacano",
+      "Cebuano",
+      "Tausug",
+      "Subanen",
+      "Filipino"
+    ],
+    "gameCostMultiplier": 0.99,
+    "contextTags": [
+      "coastal",
+      "trade"
+    ]
+  },
+  {
+    "id": "r10",
+    "name": "Northern Mindanao",
+    "label": "Northern Mindanao",
+    "sampleLocations": [
+      "Cagayan de Oro",
+      "Iligan",
+      "Malaybalay",
+      "Oroquieta",
+      "Mambajao"
+    ],
+    "languages": [
+      "Cebuano",
+      "Maranao",
+      "Binukid",
+      "Filipino"
+    ],
+    "gameCostMultiplier": 1.01,
+    "contextTags": [
+      "farming",
+      "industry"
+    ]
+  },
+  {
+    "id": "r11",
+    "name": "Davao Region",
+    "label": "Davao",
+    "sampleLocations": [
+      "Davao City",
+      "Tagum",
+      "Digos",
+      "Mati",
+      "Panabo"
+    ],
+    "languages": [
+      "Cebuano",
+      "Mandaya",
+      "Bagobo languages",
+      "Filipino"
+    ],
+    "gameCostMultiplier": 1.06,
+    "contextTags": [
+      "farming",
+      "urban"
+    ]
+  },
+  {
+    "id": "r12",
+    "name": "SOCCSKSARGEN",
+    "label": "South Central Mindanao",
+    "sampleLocations": [
+      "General Santos",
+      "Koronadal",
+      "Kidapawan",
+      "Tacurong",
+      "Alabel"
+    ],
+    "languages": [
+      "Hiligaynon",
+      "Cebuano",
+      "Maguindanaon",
+      "Tboli",
+      "Filipino"
+    ],
+    "gameCostMultiplier": 0.99,
+    "contextTags": [
+      "farming",
+      "coastal"
+    ]
+  },
+  {
+    "id": "r13",
+    "name": "Caraga",
+    "label": "Northeastern Mindanao",
+    "sampleLocations": [
+      "Butuan",
+      "Surigao City",
+      "Tandag",
+      "Bislig",
+      "Cabadbaran"
+    ],
+    "languages": [
+      "Cebuano",
+      "Surigaonon",
+      "Butuanon",
+      "Filipino"
+    ],
+    "gameCostMultiplier": 0.96,
+    "contextTags": [
+      "coastal",
+      "forest"
+    ]
+  },
+  {
+    "id": "barmm",
+    "name": "Bangsamoro Autonomous Region in Muslim Mindanao",
+    "label": "Bangsamoro",
+    "sampleLocations": [
+      "Cotabato City",
+      "Marawi",
+      "Lamitan",
+      "Bongao",
+      "Maluso"
+    ],
+    "languages": [
+      "Maguindanaon",
+      "Maranao",
+      "Tausug",
+      "Yakan",
+      "Sama",
+      "Filipino"
+    ],
+    "gameCostMultiplier": 0.98,
+    "contextTags": [
+      "maritime",
+      "heritage"
+    ]
+  }
+]

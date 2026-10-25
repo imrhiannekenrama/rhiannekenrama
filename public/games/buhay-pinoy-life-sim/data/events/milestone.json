@@ -1,0 +1,360 @@
+[
+  {
+    "id": "milestone.relationships.choosing_to_date_seriously",
+    "title": "Choosing to date seriously",
+    "text": "You meet an adult who shares your interests and asks whether you want to explore a committed relationship.",
+    "category": "relationships",
+    "minAge": 18,
+    "maxAge": 85,
+    "weight": 9,
+    "tags": [
+      "relationships"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Get to know one another",
+        "outcome": "The connection feels more honest and considerate.",
+        "effects": {
+          "relationships.friendship": 5,
+          "stats.empathy": 3,
+          "stats.happiness": 3
+        },
+        "action": {
+          "type": "startDating"
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Ask them out on a memorable date",
+        "outcome": "You create a memorable moment, with some uncertainty.",
+        "effects": {
+          "relationships.friendship": 2,
+          "stats.confidence": 4,
+          "finance.cash": -450
+        },
+        "action": {
+          "type": "startDating"
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Remain friends",
+        "outcome": "You maintain boundaries and a calmer pace.",
+        "effects": {
+          "stats.stress": -2,
+          "relationships.friendship": 1
+        }
+      }
+    ],
+    "sourceType": "milestone"
+  },
+  {
+    "id": "milestone.relationships.a_marriage_conversation",
+    "title": "A marriage conversation",
+    "text": "You and your adult partner have been talking about how your lives might fit together.",
+    "category": "relationships",
+    "minAge": 18,
+    "maxAge": 85,
+    "weight": 7,
+    "tags": [
+      "relationships"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Propose a thoughtful ceremony",
+        "outcome": "The connection feels more honest and considerate.",
+        "effects": {
+          "relationships.friendship": 5,
+          "stats.empathy": 3,
+          "stats.happiness": 3
+        },
+        "action": {
+          "type": "marry"
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Propose a civil wedding plan",
+        "outcome": "You create a memorable moment, with some uncertainty.",
+        "effects": {
+          "relationships.friendship": 2,
+          "stats.confidence": 4,
+          "finance.cash": -450
+        },
+        "action": {
+          "type": "marry"
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Wait until you are both ready",
+        "outcome": "You maintain boundaries and a calmer pace.",
+        "effects": {
+          "stats.stress": -2,
+          "relationships.friendship": 1
+        }
+      }
+    ],
+    "sourceType": "milestone",
+    "requires": {
+      "relationshipStatus": "dating"
+    }
+  },
+  {
+    "id": "milestone.family.thinking_about_becoming_a_parent",
+    "title": "Thinking about becoming a parent",
+    "text": "You and your family are discussing whether to welcome a child through a responsible, intentional process.",
+    "category": "family",
+    "minAge": 18,
+    "maxAge": 60,
+    "weight": 7,
+    "tags": [
+      "family"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Prepare for a new child",
+        "outcome": "The conversation makes room for care and practical support.",
+        "effects": {
+          "relationships.familyBond": 7,
+          "stats.empathy": 2,
+          "stats.happiness": 3
+        },
+        "action": {
+          "type": "haveChild"
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Discuss long-term plans",
+        "outcome": "Your bold approach changes the mood, though it costs something.",
+        "effects": {
+          "stats.happiness": 6,
+          "finance.cash": -350,
+          "relationships.familyBond": -2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Wait until circumstances improve",
+        "outcome": "You preserve your energy and avoid unnecessary conflict.",
+        "effects": {
+          "stats.stress": -2,
+          "stats.happiness": 1
+        }
+      }
+    ],
+    "sourceType": "milestone"
+  },
+  {
+    "id": "milestone.finance.a_chance_to_settle_old_debts",
+    "title": "A chance to settle old debts",
+    "text": "Your finances have improved enough to start dealing with outstanding bills.",
+    "category": "finance",
+    "minAge": 18,
+    "maxAge": 90,
+    "weight": 5,
+    "tags": [
+      "finance"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Repay what you can today",
+        "outcome": "A practical choice leaves your finances more resilient.",
+        "effects": {
+          "finance.cash": 1500,
+          "stats.discipline": 3,
+          "stats.stress": -1
+        },
+        "action": {
+          "type": "repayDebt",
+          "amount": 3000
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Make a debt-reduction plan",
+        "outcome": "You gain an experience, but the expense is real.",
+        "effects": {
+          "finance.cash": -2500,
+          "stats.happiness": 6,
+          "stats.stress": 3
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Protect emergency savings first",
+        "outcome": "You preserve flexibility for the next bill.",
+        "effects": {
+          "finance.savings": 300,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "milestone"
+  },
+  {
+    "id": "milestone.career.resignation_temptation",
+    "title": "Resignation temptation",
+    "text": "Your professional growth feels stuck and you are considering leaving your job.",
+    "category": "career",
+    "minAge": 18,
+    "maxAge": 75,
+    "weight": 5,
+    "tags": [
+      "career"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Look for better opportunities first",
+        "outcome": "You build trust by dealing with the issue professionally.",
+        "effects": {
+          "career.performance": 6,
+          "career.experience": 2,
+          "stats.reputation": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Resign and take a break",
+        "outcome": "You make a visible move that attracts both attention and scrutiny.",
+        "effects": {
+          "career.performance": 2,
+          "stats.confidence": 6,
+          "stats.stress": 5
+        },
+        "action": {
+          "type": "resign"
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Stay and request new duties",
+        "outcome": "You protect your time while keeping work steady.",
+        "effects": {
+          "stats.stress": -3,
+          "career.performance": 1
+        }
+      }
+    ],
+    "sourceType": "milestone",
+    "requires": {
+      "employed": true
+    }
+  },
+  {
+    "id": "milestone.education.after_school_technical_program",
+    "title": "After-school technical program",
+    "text": "A community center advertises a hands-on program for young adults who want practical skills.",
+    "category": "education",
+    "minAge": 18,
+    "maxAge": 60,
+    "weight": 5,
+    "tags": [
+      "education"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Enroll in an accredited program",
+        "outcome": "Your effort becomes useful practice for the next opportunity.",
+        "effects": {
+          "education.performance": 7,
+          "stats.smarts": 3,
+          "stats.discipline": 3
+        },
+        "action": {
+          "type": "startEducation",
+          "path": "technical"
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Attend an introductory workshop",
+        "outcome": "You stand out, but the gamble adds pressure.",
+        "effects": {
+          "stats.confidence": 6,
+          "stats.stress": 3,
+          "education.performance": -3
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Keep researching",
+        "outcome": "You keep your focus and choose a measured path.",
+        "effects": {
+          "stats.stress": -2,
+          "stats.happiness": 1
+        }
+      }
+    ],
+    "sourceType": "milestone"
+  },
+  {
+    "id": "milestone.education.university_application",
+    "title": "University application",
+    "text": "You are deciding whether to pursue a higher education path after senior high school.",
+    "category": "education",
+    "minAge": 18,
+    "maxAge": 45,
+    "weight": 10,
+    "tags": [
+      "education"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Apply to college",
+        "outcome": "Your effort becomes useful practice for the next opportunity.",
+        "effects": {
+          "education.performance": 7,
+          "stats.smarts": 3,
+          "stats.discipline": 3
+        },
+        "action": {
+          "type": "startEducation",
+          "path": "college"
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Apply while seeking scholarship support",
+        "outcome": "You stand out, but the gamble adds pressure.",
+        "effects": {
+          "stats.confidence": 6,
+          "stats.stress": 3,
+          "education.performance": -3
+        },
+        "action": {
+          "type": "startEducation",
+          "path": "college"
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Pursue work for now",
+        "outcome": "You keep your focus and choose a measured path.",
+        "effects": {
+          "stats.stress": -2,
+          "stats.happiness": 1
+        }
+      }
+    ],
+    "sourceType": "milestone",
+    "requires": {
+      "educationAtLeast": "shs"
+    }
+  }
+]

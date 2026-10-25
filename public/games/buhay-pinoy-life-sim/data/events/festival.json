@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "festival.culture.sinulog_planning",
+    "title": "Sinulog: planning",
+    "text": "Organizers are preparing Sinulog in Cebu City, with a focus on devotional dance and street celebrations. Local volunteers are invited to take part.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "sinulog"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Help with approved preparations",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Suggest a creative community activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Attend as a respectful guest",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r7"
+    ]
+  },
+  {
+    "id": "festival.culture.sinulog_festival_day",
+    "title": "Sinulog: festival day",
+    "text": "The atmosphere around Sinulog in Cebu City is lively. Residents and visitors are sharing the occasion.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "sinulog"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Enjoy the program respectfully",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Join a sanctioned activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Watch from a comfortable spot",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r7"
+    ]
+  },
+  {
+    "id": "festival.culture.sinulog_community_impact",
+    "title": "Sinulog: community impact",
+    "text": "After Sinulog, the neighborhood discusses how to support artists, vendors and cleanup teams.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "sinulog"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Support fair cleanup and vendors",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Organize a small community showcase",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Share useful feedback",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r7"
+    ]
+  },
+  {
+    "id": "festival.culture.ati_atihan_planning",
+    "title": "Ati-Atihan: planning",
+    "text": "Organizers are preparing Ati-Atihan in Kalibo, with a focus on music, dance and community festivities. Local volunteers are invited to take part.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "ati-atihan"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Help with approved preparations",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Suggest a creative community activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Attend as a respectful guest",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r6"
+    ]
+  },
+  {
+    "id": "festival.culture.ati_atihan_festival_day",
+    "title": "Ati-Atihan: festival day",
+    "text": "The atmosphere around Ati-Atihan in Kalibo is lively. Residents and visitors are sharing the occasion.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "ati-atihan"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Enjoy the program respectfully",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Join a sanctioned activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Watch from a comfortable spot",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r6"
+    ]
+  },
+  {
+    "id": "festival.culture.ati_atihan_community_impact",
+    "title": "Ati-Atihan: community impact",
+    "text": "After Ati-Atihan, the neighborhood discusses how to support artists, vendors and cleanup teams.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "ati-atihan"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Support fair cleanup and vendors",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Organize a small community showcase",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Share useful feedback",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r6"
+    ]
+  },
+  {
+    "id": "festival.culture.dinagyang_planning",
+    "title": "Dinagyang: planning",
+    "text": "Organizers are preparing Dinagyang in Iloilo City, with a focus on drumming and performances. Local volunteers are invited to take part.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "dinagyang"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Help with approved preparations",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Suggest a creative community activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Attend as a respectful guest",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r6"
+    ]
+  },
+  {
+    "id": "festival.culture.dinagyang_festival_day",
+    "title": "Dinagyang: festival day",
+    "text": "The atmosphere around Dinagyang in Iloilo City is lively. Residents and visitors are sharing the occasion.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "dinagyang"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Enjoy the program respectfully",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Join a sanctioned activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Watch from a comfortable spot",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r6"
+    ]
+  },
+  {
+    "id": "festival.culture.dinagyang_community_impact",
+    "title": "Dinagyang: community impact",
+    "text": "After Dinagyang, the neighborhood discusses how to support artists, vendors and cleanup teams.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "dinagyang"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Support fair cleanup and vendors",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Organize a small community showcase",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Share useful feedback",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r6"
+    ]
+  },
+  {
+    "id": "festival.culture.masskara_planning",
+    "title": "MassKara: planning",
+    "text": "Organizers are preparing MassKara in Bacolod, with a focus on masks, performances and city celebrations. Local volunteers are invited to take part.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "masskara"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Help with approved preparations",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Suggest a creative community activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Attend as a respectful guest",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "nir"
+    ]
+  },
+  {
+    "id": "festival.culture.masskara_festival_day",
+    "title": "MassKara: festival day",
+    "text": "The atmosphere around MassKara in Bacolod is lively. Residents and visitors are sharing the occasion.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "masskara"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Enjoy the program respectfully",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Join a sanctioned activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Watch from a comfortable spot",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "nir"
+    ]
+  },
+  {
+    "id": "festival.culture.masskara_community_impact",
+    "title": "MassKara: community impact",
+    "text": "After MassKara, the neighborhood discusses how to support artists, vendors and cleanup teams.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "masskara"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Support fair cleanup and vendors",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Organize a small community showcase",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Share useful feedback",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "nir"
+    ]
+  },
+  {
+    "id": "festival.culture.panagbenga_planning",
+    "title": "Panagbenga: planning",
+    "text": "Organizers are preparing Panagbenga in Baguio, with a focus on flower floats and blooms. Local volunteers are invited to take part.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "panagbenga"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Help with approved preparations",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Suggest a creative community activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Attend as a respectful guest",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "car"
+    ]
+  },
+  {
+    "id": "festival.culture.panagbenga_festival_day",
+    "title": "Panagbenga: festival day",
+    "text": "The atmosphere around Panagbenga in Baguio is lively. Residents and visitors are sharing the occasion.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "panagbenga"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Enjoy the program respectfully",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Join a sanctioned activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Watch from a comfortable spot",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "car"
+    ]
+  },
+  {
+    "id": "festival.culture.panagbenga_community_impact",
+    "title": "Panagbenga: community impact",
+    "text": "After Panagbenga, the neighborhood discusses how to support artists, vendors and cleanup teams.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "panagbenga"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Support fair cleanup and vendors",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Organize a small community showcase",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Share useful feedback",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "car"
+    ]
+  },
+  {
+    "id": "festival.culture.kadayawan_planning",
+    "title": "Kadayawan: planning",
+    "text": "Organizers are preparing Kadayawan in Davao City, with a focus on harvest and cultural celebrations. Local volunteers are invited to take part.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "kadayawan"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Help with approved preparations",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Suggest a creative community activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Attend as a respectful guest",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r11"
+    ]
+  },
+  {
+    "id": "festival.culture.kadayawan_festival_day",
+    "title": "Kadayawan: festival day",
+    "text": "The atmosphere around Kadayawan in Davao City is lively. Residents and visitors are sharing the occasion.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "kadayawan"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Enjoy the program respectfully",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Join a sanctioned activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Watch from a comfortable spot",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r11"
+    ]
+  },
+  {
+    "id": "festival.culture.kadayawan_community_impact",
+    "title": "Kadayawan: community impact",
+    "text": "After Kadayawan, the neighborhood discusses how to support artists, vendors and cleanup teams.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "kadayawan"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Support fair cleanup and vendors",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Organize a small community showcase",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Share useful feedback",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r11"
+    ]
+  },
+  {
+    "id": "festival.culture.pahiyas_planning",
+    "title": "Pahiyas: planning",
+    "text": "Organizers are preparing Pahiyas in Lucban, Quezon, with a focus on colorful decorated homes and harvest. Local volunteers are invited to take part.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "pahiyas"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Help with approved preparations",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Suggest a creative community activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Attend as a respectful guest",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r4a"
+    ]
+  },
+  {
+    "id": "festival.culture.pahiyas_festival_day",
+    "title": "Pahiyas: festival day",
+    "text": "The atmosphere around Pahiyas in Lucban, Quezon is lively. Residents and visitors are sharing the occasion.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "pahiyas"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Enjoy the program respectfully",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Join a sanctioned activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Watch from a comfortable spot",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r4a"
+    ]
+  },
+  {
+    "id": "festival.culture.pahiyas_community_impact",
+    "title": "Pahiyas: community impact",
+    "text": "After Pahiyas, the neighborhood discusses how to support artists, vendors and cleanup teams.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "pahiyas"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Support fair cleanup and vendors",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Organize a small community showcase",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Share useful feedback",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r4a"
+    ]
+  },
+  {
+    "id": "festival.culture.penafrancia_planning",
+    "title": "Peñafrancia: planning",
+    "text": "Organizers are preparing Peñafrancia in Naga, with a focus on religious and community celebrations. Local volunteers are invited to take part.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "peñafrancia"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Help with approved preparations",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Suggest a creative community activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Attend as a respectful guest",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r5"
+    ]
+  },
+  {
+    "id": "festival.culture.penafrancia_festival_day",
+    "title": "Peñafrancia: festival day",
+    "text": "The atmosphere around Peñafrancia in Naga is lively. Residents and visitors are sharing the occasion.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "peñafrancia"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Enjoy the program respectfully",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Join a sanctioned activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Watch from a comfortable spot",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r5"
+    ]
+  },
+  {
+    "id": "festival.culture.penafrancia_community_impact",
+    "title": "Peñafrancia: community impact",
+    "text": "After Peñafrancia, the neighborhood discusses how to support artists, vendors and cleanup teams.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "peñafrancia"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Support fair cleanup and vendors",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Organize a small community showcase",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Share useful feedback",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r5"
+    ]
+  },
+  {
+    "id": "festival.culture.pintados_kasadyaan_planning",
+    "title": "Pintados-Kasadyaan: planning",
+    "text": "Organizers are preparing Pintados-Kasadyaan in Tacloban, with a focus on dance, history and local celebration. Local volunteers are invited to take part.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "pintados-kasadyaan"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Help with approved preparations",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Suggest a creative community activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Attend as a respectful guest",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r8"
+    ]
+  },
+  {
+    "id": "festival.culture.pintados_kasadyaan_festival_day",
+    "title": "Pintados-Kasadyaan: festival day",
+    "text": "The atmosphere around Pintados-Kasadyaan in Tacloban is lively. Residents and visitors are sharing the occasion.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "pintados-kasadyaan"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Enjoy the program respectfully",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Join a sanctioned activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Watch from a comfortable spot",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r8"
+    ]
+  },
+  {
+    "id": "festival.culture.pintados_kasadyaan_community_impact",
+    "title": "Pintados-Kasadyaan: community impact",
+    "text": "After Pintados-Kasadyaan, the neighborhood discusses how to support artists, vendors and cleanup teams.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "pintados-kasadyaan"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Support fair cleanup and vendors",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Organize a small community showcase",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Share useful feedback",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r8"
+    ]
+  },
+  {
+    "id": "festival.culture.higalaay_planning",
+    "title": "Higalaay: planning",
+    "text": "Organizers are preparing Higalaay in Cagayan de Oro, with a focus on friendship and community events. Local volunteers are invited to take part.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "higalaay"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Help with approved preparations",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Suggest a creative community activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Attend as a respectful guest",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r10"
+    ]
+  },
+  {
+    "id": "festival.culture.higalaay_festival_day",
+    "title": "Higalaay: festival day",
+    "text": "The atmosphere around Higalaay in Cagayan de Oro is lively. Residents and visitors are sharing the occasion.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "higalaay"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Enjoy the program respectfully",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Join a sanctioned activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Watch from a comfortable spot",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r10"
+    ]
+  },
+  {
+    "id": "festival.culture.higalaay_community_impact",
+    "title": "Higalaay: community impact",
+    "text": "After Higalaay, the neighborhood discusses how to support artists, vendors and cleanup teams.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "higalaay"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Support fair cleanup and vendors",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Organize a small community showcase",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Share useful feedback",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r10"
+    ]
+  },
+  {
+    "id": "festival.culture.sangyaw_planning",
+    "title": "Sangyaw: planning",
+    "text": "Organizers are preparing Sangyaw in Tacloban, with a focus on street dancing and local pride. Local volunteers are invited to take part.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "sangyaw"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Help with approved preparations",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Suggest a creative community activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Attend as a respectful guest",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r8"
+    ]
+  },
+  {
+    "id": "festival.culture.sangyaw_festival_day",
+    "title": "Sangyaw: festival day",
+    "text": "The atmosphere around Sangyaw in Tacloban is lively. Residents and visitors are sharing the occasion.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "sangyaw"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Enjoy the program respectfully",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Join a sanctioned activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Watch from a comfortable spot",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r8"
+    ]
+  },
+  {
+    "id": "festival.culture.sangyaw_community_impact",
+    "title": "Sangyaw: community impact",
+    "text": "After Sangyaw, the neighborhood discusses how to support artists, vendors and cleanup teams.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "sangyaw"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Support fair cleanup and vendors",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Organize a small community showcase",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Share useful feedback",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r8"
+    ]
+  },
+  {
+    "id": "festival.culture.sandugo_planning",
+    "title": "Sandugo: planning",
+    "text": "Organizers are preparing Sandugo in Tagbilaran, with a focus on historical reenactment and cultural program. Local volunteers are invited to take part.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "sandugo"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Help with approved preparations",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Suggest a creative community activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Attend as a respectful guest",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r7"
+    ]
+  },
+  {
+    "id": "festival.culture.sandugo_festival_day",
+    "title": "Sandugo: festival day",
+    "text": "The atmosphere around Sandugo in Tagbilaran is lively. Residents and visitors are sharing the occasion.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "sandugo"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Enjoy the program respectfully",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Join a sanctioned activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Watch from a comfortable spot",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r7"
+    ]
+  },
+  {
+    "id": "festival.culture.sandugo_community_impact",
+    "title": "Sandugo: community impact",
+    "text": "After Sandugo, the neighborhood discusses how to support artists, vendors and cleanup teams.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "sandugo"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Support fair cleanup and vendors",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Organize a small community showcase",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Share useful feedback",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r7"
+    ]
+  },
+  {
+    "id": "festival.culture.kaamulan_planning",
+    "title": "Kaamulan: planning",
+    "text": "Organizers are preparing Kaamulan in Malaybalay, with a focus on Bukidnon cultural gatherings. Local volunteers are invited to take part.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "kaamulan"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Help with approved preparations",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Suggest a creative community activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Attend as a respectful guest",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r10"
+    ]
+  },
+  {
+    "id": "festival.culture.kaamulan_festival_day",
+    "title": "Kaamulan: festival day",
+    "text": "The atmosphere around Kaamulan in Malaybalay is lively. Residents and visitors are sharing the occasion.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "kaamulan"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Enjoy the program respectfully",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Join a sanctioned activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Watch from a comfortable spot",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r10"
+    ]
+  },
+  {
+    "id": "festival.culture.kaamulan_community_impact",
+    "title": "Kaamulan: community impact",
+    "text": "After Kaamulan, the neighborhood discusses how to support artists, vendors and cleanup teams.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "kaamulan"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Support fair cleanup and vendors",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Organize a small community showcase",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Share useful feedback",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r10"
+    ]
+  },
+  {
+    "id": "festival.culture.t_nalak_festival_planning",
+    "title": "T'nalak Festival: planning",
+    "text": "Organizers are preparing T'nalak Festival in Koronadal, with a focus on South Cotabato heritage and arts. Local volunteers are invited to take part.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "t'nalak festival"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Help with approved preparations",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Suggest a creative community activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Attend as a respectful guest",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r12"
+    ]
+  },
+  {
+    "id": "festival.culture.t_nalak_festival_festival_day",
+    "title": "T'nalak Festival: festival day",
+    "text": "The atmosphere around T'nalak Festival in Koronadal is lively. Residents and visitors are sharing the occasion.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "t'nalak festival"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Enjoy the program respectfully",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Join a sanctioned activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Watch from a comfortable spot",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r12"
+    ]
+  },
+  {
+    "id": "festival.culture.t_nalak_festival_community_impact",
+    "title": "T'nalak Festival: community impact",
+    "text": "After T'nalak Festival, the neighborhood discusses how to support artists, vendors and cleanup teams.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "t'nalak festival"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Support fair cleanup and vendors",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Organize a small community showcase",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Share useful feedback",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r12"
+    ]
+  },
+  {
+    "id": "festival.culture.bangus_festival_planning",
+    "title": "Bangus Festival: planning",
+    "text": "Organizers are preparing Bangus Festival in Dagupan, with a focus on fishing and food heritage. Local volunteers are invited to take part.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "bangus festival"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Help with approved preparations",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Suggest a creative community activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Attend as a respectful guest",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r1"
+    ]
+  },
+  {
+    "id": "festival.culture.bangus_festival_festival_day",
+    "title": "Bangus Festival: festival day",
+    "text": "The atmosphere around Bangus Festival in Dagupan is lively. Residents and visitors are sharing the occasion.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "bangus festival"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Enjoy the program respectfully",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Join a sanctioned activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Watch from a comfortable spot",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r1"
+    ]
+  },
+  {
+    "id": "festival.culture.bangus_festival_community_impact",
+    "title": "Bangus Festival: community impact",
+    "text": "After Bangus Festival, the neighborhood discusses how to support artists, vendors and cleanup teams.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "bangus festival"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Support fair cleanup and vendors",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Organize a small community showcase",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Share useful feedback",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r1"
+    ]
+  },
+  {
+    "id": "festival.culture.giant_lantern_festival_planning",
+    "title": "Giant Lantern Festival: planning",
+    "text": "Organizers are preparing Giant Lantern Festival in San Fernando, Pampanga, with a focus on craftsmanship and lantern artistry. Local volunteers are invited to take part.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "giant lantern festival"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Help with approved preparations",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Suggest a creative community activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Attend as a respectful guest",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r3"
+    ]
+  },
+  {
+    "id": "festival.culture.giant_lantern_festival_festival_day",
+    "title": "Giant Lantern Festival: festival day",
+    "text": "The atmosphere around Giant Lantern Festival in San Fernando, Pampanga is lively. Residents and visitors are sharing the occasion.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "giant lantern festival"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Enjoy the program respectfully",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Join a sanctioned activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Watch from a comfortable spot",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r3"
+    ]
+  },
+  {
+    "id": "festival.culture.giant_lantern_festival_community_impact",
+    "title": "Giant Lantern Festival: community impact",
+    "text": "After Giant Lantern Festival, the neighborhood discusses how to support artists, vendors and cleanup teams.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "giant lantern festival"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Support fair cleanup and vendors",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Organize a small community showcase",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Share useful feedback",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r3"
+    ]
+  },
+  {
+    "id": "festival.culture.moriones_planning",
+    "title": "Moriones: planning",
+    "text": "Organizers are preparing Moriones in Marinduque, with a focus on community street performances during Holy Week. Local volunteers are invited to take part.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "moriones"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Help with approved preparations",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Suggest a creative community activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Attend as a respectful guest",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "mimaropa"
+    ]
+  },
+  {
+    "id": "festival.culture.moriones_festival_day",
+    "title": "Moriones: festival day",
+    "text": "The atmosphere around Moriones in Marinduque is lively. Residents and visitors are sharing the occasion.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "moriones"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Enjoy the program respectfully",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Join a sanctioned activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Watch from a comfortable spot",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "mimaropa"
+    ]
+  },
+  {
+    "id": "festival.culture.moriones_community_impact",
+    "title": "Moriones: community impact",
+    "text": "After Moriones, the neighborhood discusses how to support artists, vendors and cleanup teams.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "moriones"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Support fair cleanup and vendors",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Organize a small community showcase",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Share useful feedback",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "mimaropa"
+    ]
+  },
+  {
+    "id": "festival.culture.lanzones_festival_planning",
+    "title": "Lanzones Festival: planning",
+    "text": "Organizers are preparing Lanzones Festival in Camiguin, with a focus on fruit harvest and cultural events. Local volunteers are invited to take part.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "lanzones festival"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Help with approved preparations",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Suggest a creative community activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Attend as a respectful guest",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r10"
+    ]
+  },
+  {
+    "id": "festival.culture.lanzones_festival_festival_day",
+    "title": "Lanzones Festival: festival day",
+    "text": "The atmosphere around Lanzones Festival in Camiguin is lively. Residents and visitors are sharing the occasion.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "lanzones festival"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Enjoy the program respectfully",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Join a sanctioned activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Watch from a comfortable spot",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r10"
+    ]
+  },
+  {
+    "id": "festival.culture.lanzones_festival_community_impact",
+    "title": "Lanzones Festival: community impact",
+    "text": "After Lanzones Festival, the neighborhood discusses how to support artists, vendors and cleanup teams.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "lanzones festival"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Support fair cleanup and vendors",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Organize a small community showcase",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Share useful feedback",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r10"
+    ]
+  },
+  {
+    "id": "festival.culture.manggahan_festival_planning",
+    "title": "Manggahan Festival: planning",
+    "text": "Organizers are preparing Manggahan Festival in Guimaras, with a focus on mango harvest. Local volunteers are invited to take part.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "manggahan festival"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Help with approved preparations",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Suggest a creative community activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Attend as a respectful guest",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r6"
+    ]
+  },
+  {
+    "id": "festival.culture.manggahan_festival_festival_day",
+    "title": "Manggahan Festival: festival day",
+    "text": "The atmosphere around Manggahan Festival in Guimaras is lively. Residents and visitors are sharing the occasion.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "manggahan festival"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Enjoy the program respectfully",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Join a sanctioned activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Watch from a comfortable spot",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r6"
+    ]
+  },
+  {
+    "id": "festival.culture.manggahan_festival_community_impact",
+    "title": "Manggahan Festival: community impact",
+    "text": "After Manggahan Festival, the neighborhood discusses how to support artists, vendors and cleanup teams.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "manggahan festival"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Support fair cleanup and vendors",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Organize a small community showcase",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Share useful feedback",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r6"
+    ]
+  },
+  {
+    "id": "festival.culture.sagingan_festival_planning",
+    "title": "Sagingan Festival: planning",
+    "text": "Organizers are preparing Sagingan Festival in Tubod, Lanao del Norte, with a focus on agriculture and local creativity. Local volunteers are invited to take part.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "sagingan festival"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Help with approved preparations",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Suggest a creative community activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Attend as a respectful guest",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r10"
+    ]
+  },
+  {
+    "id": "festival.culture.sagingan_festival_festival_day",
+    "title": "Sagingan Festival: festival day",
+    "text": "The atmosphere around Sagingan Festival in Tubod, Lanao del Norte is lively. Residents and visitors are sharing the occasion.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "sagingan festival"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Enjoy the program respectfully",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Join a sanctioned activity",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Watch from a comfortable spot",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r10"
+    ]
+  },
+  {
+    "id": "festival.culture.sagingan_festival_community_impact",
+    "title": "Sagingan Festival: community impact",
+    "text": "After Sagingan Festival, the neighborhood discusses how to support artists, vendors and cleanup teams.",
+    "category": "culture",
+    "minAge": 10,
+    "maxAge": 90,
+    "weight": 9,
+    "tags": [
+      "culture",
+      "festival",
+      "sagingan festival"
+    ],
+    "once": false,
+    "options": [
+      {
+        "id": "thoughtful",
+        "label": "Support fair cleanup and vendors",
+        "outcome": "You gain joy and deeper appreciation for a local tradition.",
+        "effects": {
+          "stats.happiness": 6,
+          "stats.confidence": 3,
+          "relationships.friendship": 2
+        }
+      },
+      {
+        "id": "bold",
+        "label": "Organize a small community showcase",
+        "outcome": "The lively experience becomes a story worth retelling.",
+        "effects": {
+          "finance.cash": -850,
+          "stats.happiness": 8,
+          "stats.stress": 2
+        }
+      },
+      {
+        "id": "measured",
+        "label": "Share useful feedback",
+        "outcome": "You enjoy the occasion at your own pace.",
+        "effects": {
+          "stats.happiness": 2,
+          "stats.stress": -2
+        }
+      }
+    ],
+    "sourceType": "festival",
+    "regionIds": [
+      "r10"
+    ]
+  }
+]

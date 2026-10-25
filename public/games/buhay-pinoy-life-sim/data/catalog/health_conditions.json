@@ -1,0 +1,152 @@
+[
+  {
+    "id": "flu",
+    "label": "Flu",
+    "severity": 1,
+    "note": "Simplified fictional game event; not diagnosis or medical guidance."
+  },
+  {
+    "id": "dengue",
+    "label": "Dengue",
+    "severity": 2,
+    "note": "Simplified fictional game event; not diagnosis or medical guidance."
+  },
+  {
+    "id": "asthma",
+    "label": "Asthma",
+    "severity": 3,
+    "note": "Simplified fictional game event; not diagnosis or medical guidance."
+  },
+  {
+    "id": "hypertension",
+    "label": "Hypertension",
+    "severity": 4,
+    "note": "Simplified fictional game event; not diagnosis or medical guidance."
+  },
+  {
+    "id": "diabetes",
+    "label": "Diabetes",
+    "severity": 1,
+    "note": "Simplified fictional game event; not diagnosis or medical guidance."
+  },
+  {
+    "id": "food_poisoning",
+    "label": "Food Poisoning",
+    "severity": 2,
+    "note": "Simplified fictional game event; not diagnosis or medical guidance."
+  },
+  {
+    "id": "anemia",
+    "label": "Anemia",
+    "severity": 3,
+    "note": "Simplified fictional game event; not diagnosis or medical guidance."
+  },
+  {
+    "id": "migraine",
+    "label": "Migraine",
+    "severity": 4,
+    "note": "Simplified fictional game event; not diagnosis or medical guidance."
+  },
+  {
+    "id": "dental_pain",
+    "label": "Dental Pain",
+    "severity": 1,
+    "note": "Simplified fictional game event; not diagnosis or medical guidance."
+  },
+  {
+    "id": "fracture",
+    "label": "Fracture",
+    "severity": 2,
+    "note": "Simplified fictional game event; not diagnosis or medical guidance."
+  },
+  {
+    "id": "skin_allergy",
+    "label": "Skin Allergy",
+    "severity": 3,
+    "note": "Simplified fictional game event; not diagnosis or medical guidance."
+  },
+  {
+    "id": "dehydration",
+    "label": "Dehydration",
+    "severity": 4,
+    "note": "Simplified fictional game event; not diagnosis or medical guidance."
+  },
+  {
+    "id": "vision_problem",
+    "label": "Vision Problem",
+    "severity": 1,
+    "note": "Simplified fictional game event; not diagnosis or medical guidance."
+  },
+  {
+    "id": "hearing_problem",
+    "label": "Hearing Problem",
+    "severity": 2,
+    "note": "Simplified fictional game event; not diagnosis or medical guidance."
+  },
+  {
+    "id": "kidney_condition",
+    "label": "Kidney Condition",
+    "severity": 3,
+    "note": "Simplified fictional game event; not diagnosis or medical guidance."
+  },
+  {
+    "id": "heart_condition",
+    "label": "Heart Condition",
+    "severity": 4,
+    "note": "Simplified fictional game event; not diagnosis or medical guidance."
+  },
+  {
+    "id": "stress_burnout",
+    "label": "Stress Burnout",
+    "severity": 1,
+    "note": "Simplified fictional game event; not diagnosis or medical guidance."
+  },
+  {
+    "id": "sleep_disorder",
+    "label": "Sleep Disorder",
+    "severity": 2,
+    "note": "Simplified fictional game event; not diagnosis or medical guidance."
+  },
+  {
+    "id": "arthritis",
+    "label": "Arthritis",
+    "severity": 3,
+    "note": "Simplified fictional game event; not diagnosis or medical guidance."
+  },
+  {
+    "id": "injury",
+    "label": "Injury",
+    "severity": 4,
+    "note": "Simplified fictional game event; not diagnosis or medical guidance."
+  },
+  {
+    "id": "heat_exhaustion",
+    "label": "Heat Exhaustion",
+    "severity": 1,
+    "note": "Simplified fictional game event; not diagnosis or medical guidance."
+  },
+  {
+    "id": "respiratory_infection",
+    "label": "Respiratory Infection",
+    "severity": 2,
+    "note": "Simplified fictional game event; not diagnosis or medical guidance."
+  },
+  {
+    "id": "back_pain",
+    "label": "Back Pain",
+    "severity": 3,
+    "note": "Simplified fictional game event; not diagnosis or medical guidance."
+  },
+  {
+    "id": "malnutrition",
+    "label": "Malnutrition",
+    "severity": 4,
+    "note": "Simplified fictional game event; not diagnosis or medical guidance."
+  },
+  {
+    "id": "postpartum_recovery",
+    "label": "Postpartum Recovery",
+    "severity": 1,
+    "note": "Simplified fictional game event; not diagnosis or medical guidance."
+  }
+]

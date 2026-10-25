@@ -1,0 +1,63 @@
+{
+  "product": "Buhay Pinoy: Life Simulation Content & Engine",
+  "version": "1.0.0",
+  "locale": "en-PH",
+  "currency": "PHP",
+  "encoding": "UTF-8",
+  "engine": "ES modules, zero dependencies",
+  "eventFiles": [
+    "data/events/core.json",
+    "data/events/occupation.json",
+    "data/events/regional.json",
+    "data/events/festival.json",
+    "data/events/calendar.json",
+    "data/events/milestone.json",
+    "data/events/legal.json"
+  ],
+  "catalogFiles": [
+    "data/catalog/regions.json",
+    "data/catalog/names.json",
+    "data/catalog/jobs.json",
+    "data/catalog/assets.json",
+    "data/catalog/businesses.json",
+    "data/catalog/culture.json",
+    "data/catalog/health_conditions.json",
+    "data/catalog/achievements.json"
+  ],
+  "counts": {
+    "events": 988,
+    "choices": 2964,
+    "bySource": {
+      "core": 295,
+      "occupation": 460,
+      "regional": 144,
+      "festival": 60,
+      "calendar": 12,
+      "milestone": 7,
+      "legal": 10
+    },
+    "byCategory": {
+      "business": 38,
+      "career": 481,
+      "community": 21,
+      "culture": 148,
+      "digital": 15,
+      "education": 46,
+      "ethics": 25,
+      "family": 60,
+      "finance": 40,
+      "health": 20,
+      "relationships": 22,
+      "safety": 35,
+      "senior": 15,
+      "teen": 22
+    },
+    "jobs": 115,
+    "regions": 18,
+    "businesses": 22,
+    "assets": 20,
+    "festivals": 20
+  },
+  "dataLicense": "CC0-1.0 for original authored content and original code under MIT (see LICENSE)",
+  "disclaimer": "Independent original game content, not official BitLife/Candywriter data. Values are fictional and simplified."
+}
