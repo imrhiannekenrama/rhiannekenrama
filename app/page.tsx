@@ -1,5 +1,5 @@
-﻿import Link from 'next/link';
-import {ArrowRight,ArrowUpRight,Sparkles,BookOpen,Camera,GraduationCap,FileText,Briefcase} from 'lucide-react';
+import Link from 'next/link';
+import {ArrowRight,ArrowUpRight,Sparkles,BookOpen,Camera,GraduationCap,FileText,Briefcase,Cross} from 'lucide-react';
 import {publicEntries,settings} from '@/lib/data';
 import {Worlds,EntryGrid} from '@/components/public-ui';
 import {ProfilePortrait} from '@/components/profile-portrait';
@@ -16,6 +16,7 @@ export default async function Home(){
       <h1 className="hero-h1">{s.site_name}</h1>
       <div className="hero-actions"><Link className="button" href="/about">Get to know me <ArrowRight size={17}/></Link></div>
       <div className="quick-links hero-links" aria-label="Jump to a section">
+        <Link href="/bible"><Cross size={20}/> The Word <ArrowUpRight size={13}/></Link>
         <Link href="/books"><BookOpen size={20}/> Books <ArrowUpRight size={13}/></Link>
         <Link href="/research"><FileText size={20}/> Research <ArrowUpRight size={13}/></Link>
         <Link href="/memories"><Camera size={20}/> Photos <ArrowUpRight size={13}/></Link>

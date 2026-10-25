@@ -1,4 +1,4 @@
-﻿export type EntryType = 'book'|'research'|'album'|'course'|'journal'|'project'|'idea'|'achievement'|'page';
+export type EntryType = 'book'|'research'|'album'|'course'|'journal'|'project'|'idea'|'achievement'|'page';
 export type EntryStatus = 'draft'|'scheduled'|'published'|'archived';
 export type Visibility = 'private'|'unlisted'|'public';
 export type Block = { id:string; type:'paragraph'|'heading'|'quote'|'list'|'image'|'file'|'divider'|'gallery'|'video'; text:string; media_id?:string; media_ids?:string[]; interval?:number };
@@ -18,6 +18,7 @@ export const sections = [
  {type:'project',label:'Creation Studio',icon:'Rocket',href:'/projects',color:'#fda8a0'},
  {type:'idea',label:'Mind Garden',icon:'BrainCircuit',href:'/ideas',color:'#91a4ff'},
  {type:'achievement',label:'Milestones',icon:'Award',href:'/achievements',color:'#fed28c'},
+ {type:'bible',label:'The Word',icon:'Cross',href:'/bible',color:'#f2e2b3'},
 ] as const;
 export const routeTypes:Record<string,EntryType> = {books:'book',research:'research',memories:'album',learning:'course',journal:'journal',projects:'project',ideas:'idea',achievements:'achievement',pages:'page'};
 export function entryHref(e:Pick<Entry,'type'|'slug'>){ const part=Object.keys(routeTypes).find(k=>routeTypes[k]===e.type)||'pages';return `/${part}/${encodeURIComponent(e.slug)}`; }

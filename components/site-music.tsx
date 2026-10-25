@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 import {useEffect,useRef,useState} from 'react';
 import {usePathname} from 'next/navigation';
 import {Music,VolumeX} from 'lucide-react';
@@ -15,6 +15,7 @@ const TRACKS={
   memories:{file:'deliberate-thought.mp3',label:'Deliberate Thought'},
   journal:{file:'meditation-impromptu-01.mp3',label:'Meditation Impromptu 01'},
   explore:{file:'deep-haze.mp3',label:'Deep Haze'},
+  bible:{file:'meditation-impromptu-01.mp3',label:'Meditation Impromptu 01'},
   fallback:{file:'floating-cities.mp3',label:'Floating Cities'},
 } as const;
 type TrackKey=keyof typeof TRACKS;
@@ -27,6 +28,7 @@ function trackFor(path:string):TrackKey|null{
   if(path.startsWith('/about'))return 'about';
   if(path.startsWith('/books'))return 'books';
   if(path.startsWith('/research'))return 'research';
+  if(path.startsWith('/bible'))return 'bible';
   if(path.startsWith('/memories'))return 'memories';
   if(path.startsWith('/journal'))return 'journal';
   if(path.startsWith('/explore'))return 'explore';
