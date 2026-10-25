@@ -15,7 +15,7 @@ export default function CastleChessPage(){
   </div></section>
   <section className="section container" style={{paddingTop:0}}>
     <iframe
-      src="/games/castle-chess/"
+      src="/games/castle-chess/index.html"
       title="Ken's Chess Academy"
       loading="lazy"
       style={{display:'block',width:'100%',height:'min(88vh,1080px)',border:'1px solid #3d4e6e',borderRadius:'18px',background:'#101b19'}}
