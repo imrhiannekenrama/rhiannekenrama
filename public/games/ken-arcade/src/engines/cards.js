@@ -1,0 +1,25 @@
+'use strict';
+(()=>{
+const E=window.KenEngines;
+E.highlow=api=>{
+const c=api.config,deck=K.deck(),rounds=c.rounds;let current=deck.pop(),score=0,ken=0,round=0,locked=false;
+api.mode('Predict the next card');api.say(c.mode==='color'?'Predict the color of the next card.':c.mode==='suit'?'Predict the next suit.':'Predict if the next rank is higher or lower. Equal ranks count as a push.');
+function guess(choice){if(api.ended||locked)return;locked=true;const next=deck.pop();let correct=null;if(c.mode==='color')correct=next.suit===1||next.suit===2?'Red':'Black';else if(c.mode==='suit')correct=['Spades','Hearts','Diamonds','Clubs'][next.suit];else correct=next.rank===current.rank?'Equal':next.rank>current.rank?'Higher':'Lower';let won=choice===correct,isPush=correct==='Equal';if(won)score++;if(Math.random()<(c.mode==='suit'?.25:.5))ken++;round++;let prev=current;current=next;api.say(`${K.cardText(prev)} → ${K.cardText(next)}: ${correct}. ${isPush?'Push!':won?'Correct!':'Wrong prediction.'}`);api.metrics(`You ${score} · Ken ${ken} · ${round}/${rounds}`);api.timeout(()=>{locked=false;if(round>=rounds){paint();api.finish(score>ken?'win':score<ken?'loss':'draw',`You ${score} correct; Ken ${ken} correct.`)}else paint()},500)}
+function paint(){api.root.replaceChildren();api.root.append(K.make('p','pill',`Card ${Math.min(round+1,rounds)} of ${rounds}`));let container=K.make('div','hand');container.innerHTML=K.cardHtml(current);api.root.append(container);let row=K.make('div','choice-row'),options=c.mode==='color'?['Red','Black']:c.mode==='suit'?['Spades','Hearts','Diamonds','Clubs']:['Higher','Lower'];options.forEach(x=>{let b=K.button(x,()=>guess(x),'secondary');b.disabled=api.ended||locked;row.append(b)});api.root.append(row);api.metrics(`You ${score} · Ken ${ken} · ${round}/${rounds}`)}paint();
+};
+E.blackjack=api=>{
+const c=api.config,target=c.target,deck=K.deck(),hand=[deck.pop(),deck.pop()],dealer=[deck.pop(),deck.pop()];let acted=false,double=false,finished=false;
+api.mode('Blackjack vs Ken the dealer');api.say(`Get as close to ${target} as possible without going over. Ken must hit below ${target-4}. Aces count as 1 or 11.`);
+function total(cards){let n=cards.reduce((s,x)=>s+(x.rank===1?11:Math.min(10,x.rank)),0),aces=cards.filter(x=>x.rank===1).length;while(n>target&&aces>0){n-=10;aces--}return n}
+function settle(){if(finished)return;finished=true;while(total(dealer)<target-4&&deck.length)dealer.push(deck.pop());let a=total(hand),b=total(dealer),win=b>target||a<=target&&a>b,loss=a>target||b<=target&&a<b,draw=!win&&!loss;paint();api.finish(draw?'draw':win?'win':'loss',`Your hand: ${a}. Ken’s hand: ${b}. ${double?'(Double down was played.)':''}`)}
+function hit(){if(api.ended||finished)return;acted=true;hand.push(deck.pop());paint();if(total(hand)>target){finished=true;paint();api.finish('loss',`You busted with ${total(hand)}. Ken has ${total(dealer)}.`)}else if(total(hand)===target)settle()}
+function doubleDown(){if(acted||!c.double||finished)return;double=true;acted=true;hand.push(deck.pop());if(total(hand)>target){finished=true;paint();api.finish('loss',`Double down bust at ${total(hand)}.`)}else settle()}
+function paint(){api.root.replaceChildren();api.root.append(K.make('p','pill',`Your total: ${total(hand)} · Target ${target}`),K.make('p','mini-label','YOUR HAND'));let you=K.make('div','hand');hand.forEach(x=>{let card=K.make('div','');card.innerHTML=K.cardHtml(x);you.append(card)});api.root.append(you,K.make('p','mini-label','KEN’S HAND'));let his=K.make('div','hand');dealer.forEach((x,i)=>{let card=K.make('div','');card.innerHTML=finished||i===0?K.cardHtml(x):K.cardHtml(null);his.append(card)});api.root.append(his);if(!finished){let actions=K.make('div','choice-row');actions.append(K.button('Hit',hit),K.button('Stand',settle,'secondary'));if(c.double){let b=K.button('Double down',doubleDown,'secondary');b.disabled=acted;actions.append(b)}api.root.append(actions)}api.metrics(`You ${total(hand)} · Ken ${finished?total(dealer):'?'}`)}paint();
+};
+E.war=api=>{
+const c=api.config,deck=K.deck();let round=0,points=0,ken=0,last=null;
+api.mode('Card duel · Higher card wins');api.say('Flip a card for you and Ken. Highest rank takes the point. Aces are high.');
+function flip(){if(api.ended||round>=c.rounds)return;let a=deck.pop(),b=deck.pop(),va=a.rank===1?14:a.rank,vb=b.rank===1?14:b.rank;last=[a,b];if(va>vb)points++;if(vb>va)ken++;round++;paint();api.say(va>vb?'Your card wins the round!':vb>va?'Ken’s card wins the round.':'Same rank — tie!');if(round===c.rounds)api.finish(points>ken?'win':points<ken?'loss':'draw',`You won ${points} rounds, Ken won ${ken} rounds.`)}
+function paint(){api.root.replaceChildren();api.root.append(K.make('p','pill',`Round ${round} / ${c.rounds}`));let cards=K.make('div','hand');cards.innerHTML=`<div><small>YOU</small>${K.cardHtml(last?.[0]||null)}</div><div><small>KEN</small>${K.cardHtml(last?.[1]||null)}</div>`;api.root.append(cards);if(round<c.rounds)api.root.append(K.button('Flip both cards',flip));api.metrics(`You ${points} · Ken ${ken}`)}paint();
+};
+})();

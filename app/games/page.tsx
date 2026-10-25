@@ -1,9 +1,9 @@
 import type {Metadata} from 'next';
 import Link from 'next/link';
-import {Gamepad2,ArrowUpRight,Play,Crown} from 'lucide-react';
+import {Gamepad2,ArrowUpRight,Play,Crown,Dices} from 'lucide-react';
 import {MathBackdrop} from '@/components/math-backdrop';
 
-export const metadata:Metadata={title:'Games',description:'Play Buhay Pinoy, a Philippine life simulator, and Castle Chess — challenge five versions of Ken at his own game. More from the universe of Rhianne Ken S. Rama.'};
+export const metadata:Metadata={title:'Games',description:'Play Buhay Pinoy, a Philippine life simulator, Castle Chess, and Ken’s Arcade — 161 mini games where Ken is your rival, dealer and coach. More from the universe of Rhianne Ken S. Rama.'};
 
 export default function GamesPage(){
  return <main id="main" className="scene">
@@ -30,6 +30,15 @@ export default function GamesPage(){
         <span className="button bp-playbtn"><Play size={16}/> Play now <ArrowUpRight size={14}/></span>
         <div className="bp-heroart" aria-hidden>
           <svg viewBox="0 0 60 30" width="60"><rect x="8" y="8" width="20" height="20" rx="3" fill="#162239" stroke="#7ee0c9" strokeWidth="1.5"/><rect x="18" y="18" width="20" height="20" rx="3" fill="#7ee0c9" opacity=".9" transform="translate(0,-10)"/><text x="18" y="24" fontSize="14" fill="#0f192b" fontWeight="bold">♞</text></svg>
+        </div>
+      </Link>
+      <Link href="/games/ken-arcade" className="card bp-herocard">
+        <span className="bp-badge"><Dices size={15}/> 161 Mini Games</span>
+        <h3 style={{fontSize:'1.6rem',margin:'12px 0 6px'}}>Ken’s Arcade</h3>
+        <p>One hundred sixty-one offline mini games across eight categories — strategy duels with Ken, Filipino quizzes, cards, puzzles, memory, logic and arcade. Pick a game, challenge Ken, and keep your streaks.</p>
+        <span className="button bp-playbtn"><Play size={16}/> Play now <ArrowUpRight size={14}/></span>
+        <div className="bp-heroart" aria-hidden>
+          <svg viewBox="0 0 60 30" width="60"><rect x="10" y="10" width="16" height="16" rx="4" fill="#162239" stroke="#7ee0c9" strokeWidth="1.5"/><circle cx="26" cy="22" r="6" fill="#7ee0c9"/><rect x="34" y="12" width="14" height="14" rx="4" fill="#162239" stroke="#7ee0c9" strokeWidth="1.5"/><text x="14" y="22" fontSize="12" fill="#7ee0c9">K</text></svg>
         </div>
       </Link>
       <div className="card bp-soon" style={{gridColumn:'1 / -1'}}>

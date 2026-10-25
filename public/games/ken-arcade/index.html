@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10192c">
+  <meta name="description" content="Ken's Arcade: 161 playable offline-friendly browser mini games, from strategy and puzzles to math and cards.">
+  <title>Ken's Arcade — 161 Mini Games</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <button id="home-btn" class="brand" aria-label="Ken's Arcade home"><span class="brand-icon">K</span><span>KEN'S <b>ARCADE</b><small>161 MINI GAMES</small></span></button>
+    <div class="top-right"><span class="top-pill">🟢 Offline-ready</span><button class="small-btn" id="random-btn">🎲 Surprise me</button></div>
+  </header>
+  <main id="browse" class="layout">
+    <aside class="sidebar"><div class="sidebar-heading">Browse games</div><div id="categories" class="categories"></div><div class="side-note">Built for single players, with <b>Ken</b> as your rival, dealer, puzzle setter, or coach.</div></aside>
+    <section class="content"><div class="hero"><div><p class="eyebrow">WELCOME TO YOUR NEW FAVORITE BREAK</p><h1>Pick a game.<br><em>Challenge Ken.</em></h1><p>Strategy, Filipino quizzes, cards, puzzles, memory and arcade. No sign-in, no ads and no internet required.</p><div class="hero-stats"><span><b id="total-count">161</b> Games</span><span><b>24</b> Game Engines</span><span><b>8</b> Categories</span></div></div><div class="mascot"><div class="ken-face">🤖</div><div class="ken-tag">KEN <span>READY TO PLAY</span></div></div></div>
+      <div class="browse-tools"><div class="search-box"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search 161 games..." aria-label="Search games"></div><select id="sort" aria-label="Sort games"><option value="recommended">Featured first</option><option value="az">Name A–Z</option><option value="za">Name Z–A</option></select></div>
+      <div class="section-title"><h2 id="list-title">All games</h2><span id="shown-count"></span></div><div id="game-grid" class="game-grid"></div><p id="empty" class="empty" hidden>No games found. Try a different search.</p>
+    </section>
+  </main>
+  <main id="play" class="play-layout" hidden>
+    <div class="play-top"><button id="back-btn" class="back-btn">← All Games</button><span id="play-category"></span><button id="restart-btn" class="small-btn">↻ Restart</button></div>
+    <div class="play-header"><span id="game-icon" class="game-icon">🎮</span><div><h1 id="game-name"></h1><p id="game-rules"></p></div></div>
+    <div class="play-body"><section class="game-panel"><div class="game-toolbar"><strong id="mode-label">Ken is ready</strong><span id="game-metrics"></span></div><p id="game-message" class="game-message" role="status" aria-live="polite"></p><div id="game-root" class="game-root"></div><div id="game-over" class="game-over" hidden></div></section><aside class="ken-panel"><div class="ken-avatar">🤖</div><div class="ken-name">KEN</div><div class="ken-role" id="ken-role">Your opponent</div><div class="bubble" id="ken-quote">Let's play!</div><div class="scoreboard"><div><span>YOUR WINS</span><b id="wins">0</b></div><div><span>KEN'S WINS</span><b id="losses">0</b></div><div><span>DRAWS</span><b id="draws">0</b></div></div><small>Results saved on this browser.</small></aside></div>
+  </main>
+  <footer><b>KEN'S ARCADE</b> · 161 original playable mini-game configurations · Built with plain HTML, CSS &amp; JavaScript · by Rhianne Ken S. Rama · <span>Works without a server or external libraries.</span></footer>
+  <script src="src/catalog.js"></script>
+  <script src="data/banks.js"></script>
+  <script src="src/core.js"></script>
+  <script src="src/engines/strategy.js"></script>
+  <script src="src/engines/education.js"></script>
+  <script src="src/engines/puzzles.js"></script>
+  <script src="src/engines/cards.js"></script>
+  <script src="src/engines/arcade.js"></script>
+  <script src="src/app.js"></script>
+</body>
+</html>
