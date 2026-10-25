@@ -1,0 +1,24 @@
+MIT License
+
+Copyright (c) 2026 Castle Chess Academy Website Package
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of the original software and original instructional text in this package to deal
+in that material without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies, and to permit persons to whom the material is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the material.
+
+THE SOFTWARE AND TEXT ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE MATERIAL OR THE
+USE OR OTHER DEALINGS IN THE MATERIAL.
+
+EXCEPTION: Third-party Font Awesome Free chess-piece icons under assets/pieces/
+are licensed separately under CC BY 4.0; see docs/THIRD_PARTY_LICENSES.md.
