@@ -35,7 +35,7 @@ export function BuhayPinoy(){
    (async()=>{
      const importer=new Function('u','return import(u)');
      const sim:any=await importer(GAME_BASE+'engine/index.js');
-     const db=await sim.loadDatabase(GAME_BASE);
+     const db=await sim.loadDatabase(new URL(GAME_BASE,window.location.origin).href);
      if(!live)return;
      simRef.current=sim;dbRef.current=db;
      setRegionId(db.catalog.regions[0].id);
@@ -43,7 +43,7 @@ export function BuhayPinoy(){
        if(raw){const s=sim.restoreGame(raw);
          if(s&&s.living!==undefined){setLife(s);setPhase('play');achRef.current=s.achievements.length;return}}}catch{}
      setPhase('menu');
-   })().catch(()=>{if(live)setPhase('error')});
+   })().catch(e=>{console.error('Buhay Pinoy load failed:',e);if(live)setPhase('error')});
    return()=>{live=false};
  },[]);
 
