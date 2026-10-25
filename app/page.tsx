@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import type React from 'react';
 import {ArrowRight,ArrowUpRight,Sparkles,BookOpen,Camera,GraduationCap,FileText,Briefcase,Cross,Gamepad2} from 'lucide-react';
 import {publicEntries,settings} from '@/lib/data';
 import {Worlds,EntryGrid} from '@/components/public-ui';
@@ -28,8 +29,18 @@ export default async function Home(){
     </div>
     <div className="hero-portrait-area"><ProfilePortrait mediaId={s.portrait_media_id} displayName={s.site_name}/></div>
   </div></section>
+  <section className="section container" data-reveal style={{paddingTop:26}}>
+    <div className="grid two" style={{gap:20}}>
+      <Link href="/bible" className="card world-card" style={{'--world':'#ffd166'} as React.CSSProperties}>
+        <div><span className="world-icon"><Cross size={22}/></span><h3 style={{margin:'14px 0 5px'}}>The Word</h3><p style={{fontSize:'.88rem'}}>A dual-version Bible reader and 320 stories with reflections, in a quiet parchment reading room.</p></div>
+        <span className="arrow"><ArrowUpRight size={16}/></span>
+      </Link>
+      <Link href="/games" className="card world-card" style={{'--world':'#7ee0c9'} as React.CSSProperties}>
+        <div><span className="world-icon"><Gamepad2 size={22}/></span><h3 style={{margin:'14px 0 5px'}}>The Games Arcade</h3><p style={{fontSize:'.88rem'}}>Buhay Pinoy, Castle Chess, and Ken's Arcade — 161 mini games, all playable in your browser.</p></div>
+        <span className="arrow"><ArrowUpRight size={16}/></span>
+      </Link>
+    </div>
+  </section>
   {(s.home_sections||['worlds','latest']).map(k=>components[k]||null)}
  </main>
  }
-
-
