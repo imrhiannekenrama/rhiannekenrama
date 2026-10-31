@@ -29,7 +29,18 @@ export default async function Home(){
     </div>
     <div className="hero-portrait-area"><ProfilePortrait mediaId={s.portrait_media_id} displayName={s.site_name}/></div>
   </div></section>
-  <section className="section container" data-reveal style={{paddingTop:26}}>
+    <section className="section container" data-reveal style={{paddingTop:30}}>
+   <div className="card" style={{background:'linear-gradient(135deg,#131a33 0%,#1b2447 55%,#251c40 100%)',border:'1px solid #33406b',padding:'clamp(22px,4vw,40px)',borderRadius:22,display:'grid',gap:16}}>
+    <div className="eyebrow" style={{color:'#bba8ff'}}>Something I recommend</div>
+    <h2 style={{margin:0,fontSize:'clamp(1.5rem,3.4vw,2.1rem)'}}>An AI agent that actually does the work.</h2>
+    <p style={{maxWidth:640,color:'#c7d2e8',margin:0}}>Base44&rsquo;s <strong>Superagent</strong> is a personal AI agent you can hand real tasks to. It researches and writes, drafts and sends your emails, keeps your notes and files in order, runs automations on a schedule, and builds small tools for you, all from one conversation.</p>
+    <div style={{display:'flex',flexWrap:'wrap',gap:14,alignItems:'center'}}>
+     <a className="button" href="https://base44.pxf.io/qW9jzN" target="_blank" rel="sponsored noopener noreferrer">Try Base44&rsquo;s Superagent <ArrowUpRight size={15}/></a>
+     <span className="small" style={{color:'#8fa3c4'}}>Affiliate link · no extra cost to you</span>
+    </div>
+   </div>
+  </section>
+<section className="section container" data-reveal style={{paddingTop:26}}>
     <div className="grid two" style={{gap:20}}>
       <Link href="/bible" className="card world-card" style={{'--world':'#ffd166'} as React.CSSProperties}>
         <div><span className="world-icon"><Cross size={22}/></span><h3 style={{margin:'14px 0 5px'}}>The Word</h3><p style={{fontSize:'.88rem'}}>A dual-version Bible reader and 320 stories with reflections, in a quiet parchment reading room.</p></div>
